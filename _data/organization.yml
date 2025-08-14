@@ -1,18 +1,22 @@
-- title: Program Committee Chair
+- title: Coordenação Geral
   column: 1
   members:
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur
+  - name: Cristina Boeres
+    org: IC-UFF, Niterói
     post: ""
-    homepage: https://cse.iitk.ac.in/users/arnabb/
-- title: Organising Chair
+    homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
+  - name: Vinod Rebello
+    org: IC-UFF, Niterói
+    post: ""
+    homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
+- title: Coordenação do Comitê de Programa dos Forúns
   column: 1
   members:
-  - name: Martin Gluckman
-    org: Sanskrit Research Institute
+  - name: Gabriel Silva
+    org: IC-UFRJ, Rio de Janeiro
     post: ""
     homepage: ""
-- title: Steering Committee
+- title: Coordenação do Concurso de TCCs e Dissertações
   column: 1
   members:
   - name: Amba Kulkarni
@@ -21,26 +25,28 @@
   - name: Arnab Bhattacharya
     org: IIT Kanpur, Kanpur, India
     homepage: https://cse.iitk.ac.in/users/arnabb/
-  - name: Brendan Gillon
-    org: McGill University, Montreal, Canada
-    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  - name: Gérard Huet
-    # org: Institut de France (Académie des Sciences), France
-    org: INRIA, Paris, France
-    homepage: http://pauillac.inria.fr/~huet/
+- title: Coordenação da Maratona de Programação Paralela
+  column: 1
+  members:
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+- title: Coordenação dos Minicursos
+  column: 1
+  members:
+  - name: Maria Clicia Castro
+    org: UERJ, Rio de Janeiro
+    homepage: ""
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
   # - name: Girish Nath Jha
   #   org: JNU, Delhi, India
   #   homepage: https://jnu.ac.in/content/girishjha
-  - name: Malhar Kulkarni
-    org: IIT Bombay, Mumbai, India
-    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
-  - name: Pawan Goyal
-    org: IIT Kharagpur, Kharagpur, India
-    homepage: https://cse.iitkgp.ac.in/~pawang/
-  - name: Peter Scharf
-    org: The Sanskrit Library, USA
-    homepage: https://www.sanskritlibrary.org/cv/profile.html
-- title: Technical Program Committe
+- title: Comitê Científico e Técnico
   column: 2
   members:
   - name: Amba Kulkarni
@@ -103,6 +109,6 @@
 - title: Webmaster
   column: 1
   members:
-  - name: Hrishikesh Terdalkar
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://hrishikeshrt.github.io
+  - name: Vinod Rebello
+    org: IC-UFF, Niterói
+    homepage: ""
