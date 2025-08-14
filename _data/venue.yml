@@ -1,9 +1,9 @@
 address: |
-  <a href="https://www.unitypavilion.in/">Unity Pavilion</a>,
-  Auroville, Puducherry,
-  India
+  <a href="https://www.ic,uff,br/">Instituto de Computação</a>,
+  Universidade Federal Fluminense, Av. Gal. Milton Tavares de Souza, s/nº, Boa Viagem – Niterói/RJ – Brasil 
+
 directions: >
-  Google Maps Location: <a href="https://goo.gl/maps/D9obMuDHke8EZHtNA">https://goo.gl/maps/D9obMuDHke8EZHtNA</a>
+  Google Maps Location: <a href="https://www.google.com/maps/place/UFF+-+Instituto+de+Computa%C3%A7%C3%A3o/@-22.9059398,-43.1333203,18.17z/data=!4m6!3m5!1s0x99817e444e692b:0xfd5e35fb577af2f5!8m2!3d-22.9064655!4d-43.1332602!16s%2Fg%2F1ydkj35pg?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDgxMi4wIKXMDSoASAFQAw%3D%3D">IC-UFF no Google Maps</a>
 accommodation:
   instructions: >
     <p>
@@ -164,4 +164,4 @@ accommodation:
   hotels:
     # - name: TBA
     #   address: TBA
-direction: ./assets/images/direction.png
+direction: ./assets/images/mapaUFF.png
