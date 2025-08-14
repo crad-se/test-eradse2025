@@ -1,10 +1,11 @@
-portal: CMT3 Submission Portal
+portal: SBC JEMS3 Submission Portal
 url: "https://cmt3.research.microsoft.com/ISCLS2024"
 
 file_formats:
   - PDF
 languages:
-  - English
+  - Português
+  - Inglês
 
 review_mode: 1
 # 0: double blind
@@ -12,11 +13,11 @@ review_mode: 1
 
 pagelimits:
   - type: paper
-    name: Paper
-    limit: 20
+    name: Artigo do Forum
+    limit: 5
   - type: demo
-    name: Demonstration
-    limit: 2
+    name: TCC ou Dissertação
+    limit: 8
 
 fontsize: 10
 
@@ -56,4 +57,4 @@ template:
   url: ./assets/files/iscls-template.zip
   overleaf: https://www.overleaf.com/latex/templates/submission-template-and-instructions-for-the-iscls/dmhhdjnxqftd
 
-publisher: Association for Computational Linguistics Anthology
+publisher: Sociedade Brasileira de Computação
