@@ -9,38 +9,37 @@ slide_id: 3
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
 
 
-        <h6 class="text-info">Instructions</h6>
+        <h6 class="text-info">Instruções</h6>
 
         <p>
-            Submitted papers must be neither previously published nor under
-            review by another workshop, conference or journal.
+            Os artigos enviados não devem ter sido publicados anteriormente nem estar sob revisão por outro workshop, conferência ou periódico.
         </p>
 
         <p>
-            Only electronic submissions in {{site.data.submission.file_formats | join:" or "}} format
-            will be accepted. Submitted articles must be written in
-            {{site.data.submission.languages | join:" or "}}, conforming to the page limit, in
-            {{site.data.submission.fontsize}}-point font and must render without
-            error using standard PDF viewing tools.
+            Somente submissões eletrônicas em formato {{site.data.submission.file_formats | join:" or "}} 
+            serão aceitos. Os artigos submetidos devem ser escritos em
+            {{site.data.submission.languages | join:" or "}}, em conformidade com o limite de páginas do tipo de artigo,
+            com o texto principal em fonte Times tamanho {{site.data.submission.fontsize}}, 
+            e deve ser renderizado sem erros usando ferramentas de visualização de PDF padrão.
         </p>
         <p>
-            <b>Page Limit</b>
+            <b>Limite de Páginas</b>
             <table class="table border">
                 {% for track in site.data.submission.pagelimits %}
                 <tr>
                     <td><b>{{track.name}}</b></td>
-                    <td>{{track.limit}} pages</td>
+                    <td>{{track.limit}} páginas</td>
                 </tr>
                 {% endfor %}
             </table>
         </p>
 
         <p>
-            Papers should use the <strong class="text-danger">{{site.data.submission.template.description}}</strong>, available at
+            Os artigos devem utilizar o <strong class="text-danger">{{site.data.submission.template.description}}</strong>, disponível em
             <a href="{{site.data.submission.template.url}}" target="_blank">
                 <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> {{site.data.submission.template.name}}
-            </a>.
-            {% if site.data.submission.template.overleaf %}The template is also available at
+            </a>
+            {% if site.data.submission.template.overleaf %}<br>O modelo também está disponível no
             <a href="{{site.data.submission.template.overleaf}}" target="_blank">
                 <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> Overleaf
             </a>
@@ -65,9 +64,8 @@ slide_id: 3
         {% endif %}
 
         <p>
-            <h6 class="text-info">Submission</h6>
-            To submit your paper, please follow below link to the submission
-            site:
+            <h6 class="text-info">Submissões</h6>
+            Para enviar seu artigo, siga o link abaixo para o site de submissão e escolha a trilha apropriada:
         </p>
 
         <p class="text-center">
@@ -86,8 +84,7 @@ slide_id: 3
 
         <h6 class="text-info">Camera-Ready Instructions</h6>
         <p>
-            You will receive the information via your email for camera-ready
-            instructions.
+            Você receberá as informações por e-mail com instruções para o preparo da versão de seu artigo aceito.
 
             <!--
                     The Author's Final Paper Formatting and Submission Instructions can be found at:</p>
