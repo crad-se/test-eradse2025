@@ -1,17 +1,15 @@
 - date: 2025-08-25
-  text: Website is online
+  text: ERAD-SE Website went live.
 - date: 2025-08-25
-  text: Call For Papers is out
-#- date: 2023-09-16
-#  text: Submission deadline is extended
+  text: <strong>Call For Papers</strong> is out
+- date: 2025-09-20
+  text: <span class="text-info">Paper submission deadline has been extended!</span>
 #- date: 2025-09-14
 #  text: <strong><a href="./registration.html">Inscrições</a></strong> is open
 #- date: 2025-10-14
 #  text: <strong><a href="./accepted.html">Artigos Aceitos</a></strong> announced
 # - date: 2017-10-14
 #   text: Workshop has been successfully held
-- date: 2023-09-16
-  text: <span class="text-info">Demo submission deadline is extended</span>
-- date: 2023-12-10
-  text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
+#- date: 2023-12-10
+#  text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
 
