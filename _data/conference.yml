@@ -88,16 +88,18 @@ navbar:
       visible: True
   - id: 3
     label: Submissões
+    # Added the following line since only child
+    path: /submission.html 
     visible: True
-    children:
-    - id: 1
-      label: Submission
-      path: /submission.html
-      visible: True
-    - id: 2
-      label: Accepted Papers
-      path: /accepted.html
-      visible: True
+    #children:
+    #- id: 1
+    #  label: Submission
+    #  path: /submission.html
+    #  visible: True
+    #- id: 2
+    #  label: Artigos Aceitos
+    #  path: /accepted.html
+    #  visible: True
   - id: 4
     label: Programação
     path: /program.html
