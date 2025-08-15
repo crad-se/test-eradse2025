@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   prover um fórum regular onde possam ser apresentados e discutidas avanços recentes nestas áreas e formas de
   ensino de alto desempenho nas universidades e institutos de pesquisa.
 
-email: eradse@ic.uff.br
+email: erad-se@ic.uff.br
 
 iteration: 10a
 full_title: X Escola Regional de Alto Desempenho da Região Sudeste
@@ -112,28 +112,28 @@ navbar:
     visible: True
 deadline_timezone: AoE
 deadlines:
+#  - date: 2025-09-22
+    # timezone: AoE
+#    text: Submission deadline
+#    pass_due: True
+#    strike_through: True
   - date: 2025-09-22
     text: Submission deadline
-    pass_due: True
+    pass_due: False
     strike_through: False
+#  - date: 2025-10-13
+#    text: Notification of acceptance
+#    pass_due: True
+#    strike_through: True
   - date: 2025-10-13
     text: Notification of acceptance
-    pass_due: True
-    strike_through: False
-  - date: 2023-09-18
-    # timezone: AoE
-    text: Submission deadline
-    pass_due: True
-    strike_through: True
-  - date: 2023-11-20
-    text: Notification of acceptance
     pass_due: False
-    strike_through: True
+    strike_through: False
 #  - date: 2024-01-05
 #    text: Demo submission deadline
 #    pass_due: True
 #    strike_through: True
-  - date: 2025-10-08
+  - date: 2025-10-27
     text: Camera-ready due
     pass_due: False
     strike_through: False
