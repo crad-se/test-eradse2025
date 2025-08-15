@@ -99,7 +99,7 @@ navbar:
       path: /accepted.html
       visible: True
   - id: 4
-    label: Program
+    label: Programação
     path: /program.html
     visible: True
   - id: 5
@@ -107,7 +107,7 @@ navbar:
     path: /venue.html
     visible: True
   - id: 6
-    label: Registration
+    label: Inscrições
     path: /registration.html
     visible: True
 deadline_timezone: AoE
@@ -118,15 +118,15 @@ deadlines:
 #    pass_due: True
 #    strike_through: True
   - date: 2025-09-22
-    text: Submission deadline
+    text: Submissão de Trabalhos
     pass_due: False
     strike_through: False
 #  - date: 2025-10-13
-#    text: Notification of acceptance
+#    text: Notificação de Aceitação
 #    pass_due: True
 #    strike_through: True
   - date: 2025-10-13
-    text: Notification of acceptance
+    text: Notificação de Aceitação
     pass_due: False
     strike_through: False
 #  - date: 2024-01-05
