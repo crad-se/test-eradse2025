@@ -1,5 +1,5 @@
 portal: SBC JEMS3 Submission Portal
-url: "https://cmt3.research.microsoft.com/ISCLS2024"
+url: "https://jems3.sbc.org.br/events/410"
 
 file_formats:
   - PDF
@@ -22,8 +22,8 @@ pagelimits:
 fontsize: 10
 
 extra: |
-  <h6 class="text-info">Compilation</h6>
-
+  <h6 class="text-info">Formatação</h6>
+  <!--
   Let the fileame of your submision be <code>ABC.tex</code>.
 
   <pre class="pre-scrollable bg-dark text-light rounded mt-2 p-2">
@@ -32,29 +32,29 @@ extra: |
   $ bibtex ABC # Remember to run bibtex twice
   $ xelatex ABC
   </pre>
-
+  -->
 sources:
 - name: Sample TeX Source File
-  url: ./assets/files/iscls.tex
-  text: iscls.tex
+  url: ./assets/files/sbc_template.tex
+  text: sbc_template.tex
 - name: Sample PDF file
-  url: ./assets/files/iscls.pdf
-  text: iscls.pdf
+  url: ./assets/files/sbc_template.pdf
+  text: sbc_template.pdf
 - name: Style file
-  url: ./assets/files/scl.sty
-  text: scl.sty
+  url: ./assets/files/sbc_template.sty
+  text: sbc_template.sty
 - name: Bibliography Style
-  url: ./assets/files/acl.bst
-  text: acl.bst
+  url: ./assets/files/sbc.bst
+  text: sbc.bst
 - name: Sample Bibliography file
-  url: ./assets/files/iscls.bib
-  text: iscls.bib
+  url: ./assets/files/sbc_template.bib
+  text: sbc_template.bib
 
 
 template:
-  name: ISCLS Submission Template
-  description: submission template and instructions for ISCLS
-  url: ./assets/files/iscls-template.zip
-  overleaf: https://www.overleaf.com/latex/templates/submission-template-and-instructions-for-the-iscls/dmhhdjnxqftd
+  name: SBC Modelos para Publicações
+  description: Instruções e formato para artigos publicados pela SBC
+  url: ./assets/files/sbc-template.zip
+  overleaf: https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr
 
 publisher: Sociedade Brasileira de Computação
