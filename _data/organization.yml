@@ -2,47 +2,51 @@
   column: 1
   members:
   - name: Cristina Boeres
-    org: IC-UFF, Niterói
+    org: IC-UFF, Niterói - RJ
     post: ""
     homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
   - name: Vinod Rebello
-    org: IC-UFF, Niterói
-    post: ""
+    org: IC-UFF, Niterói - RJ
+    post: what is this
     homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
 - title: Coordenação do Comitê de Programa dos Forúns
   column: 1
   members:
   - name: Gabriel Silva
-    org: IC-UFRJ, Rio de Janeiro
+    org: IC-UFRJ, Rio de Janeiro - RJ
+    post: ""
+    homepage: ""
+  - name: Ricardo Ferreira
+    org: Departamento de Informática, Universidade Federal Viçosa, Viçosa - MG
     post: ""
     homepage: ""
 - title: Coordenação do Concurso de TCCs e Dissertações
   column: 1
   members:
-  - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
-    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Alexandre Sena
+    org: UERJ, Rio de Janeiro - RJ
+    homepage: ""
+#  - name: Arnab Bhattacharya
+#    org: IIT Kanpur, Kanpur, India
+#    homepage: https://cse.iitk.ac.in/users/arnabb/
 - title: Coordenação da Maratona de Programação Paralela
   column: 1
   members:
-  - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
-    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Marcelo Zamith (UFRRJ)
+    org: UFRRJ
+    homepage: ""
+  - name: Leandro Santiago
+    org: Instituto de Computação, UFF, Niterói
+    homepage: ""
 - title: Coordenação dos Minicursos
   column: 1
   members:
   - name: Maria Clicia Castro
     org: UERJ, Rio de Janeiro
     homepage: ""
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Rafaela Brum
+    org: UERJ, Rio de Janeiro
+    homepage: ""
   # - name: Girish Nath Jha
   #   org: JNU, Delhi, India
   #   homepage: https://jnu.ac.in/content/girishjha
