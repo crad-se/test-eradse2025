@@ -36,19 +36,19 @@ extra: |
   -->
 sources:
 - name: Sample TeX Source File
-  url: ./assets/files/sbc_template.tex
+  url: ./assets/files/sbc-template.tex
   text: sbc_template.tex
 - name: Sample PDF file
   url: ./assets/files/sbc_template.pdf
   text: sbc_template.pdf
 - name: Style file
-  url: ./assets/files/sbc_template.sty
+  url: ./assets/files/sbc-template.sty
   text: sbc_template.sty
 - name: Bibliography Style
   url: ./assets/files/sbc.bst
   text: sbc.bst
 - name: Sample Bibliography file
-  url: ./assets/files/sbc_template.bib
+  url: ./assets/files/sbc-template.bib
   text: sbc_template.bib
 
 template:
