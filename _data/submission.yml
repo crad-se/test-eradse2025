@@ -21,7 +21,7 @@ pagelimits:
 
 fontsize: 10
 
-extra: 
+extra: |
   
   <h6 class="text-info">Formatação</h6>
   <!-- 
