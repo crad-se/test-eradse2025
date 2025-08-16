@@ -2,29 +2,29 @@
   column: 1
   members:
   - name: Cristina Boeres
-    org: Instituto de Computação, Universidade Federal Fluminense, Niterói - RJ
     post: ""
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
   - name: Vinod Rebello
-    org: Instituto de Computação, Universidade Federal Fluminense, Niterói - RJ
-    post: what is this
+    post: ""
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
 - title: Coordenação do Comitê de Programa dos Forúns
   column: 1
   members:
   - name: Gabriel Silva
-    org: Instituto de Computação, Universidade Federal de Rio de Janeiro, Rio de Janeiro - RJ
+    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
     post: ""
     homepage: ""
   - name: Ricardo Ferreira
-    org: Departamento de Informática, Universidade Federal Viçosa, Viçosa - MG
+    org: Universidade Federal Viçosa (UFV), Viçosa - MG
     post: ""
     homepage: ""
 - title: Coordenação do Concurso de TCCs e Dissertações
   column: 1
   members:
   - name: Alexandre Sena
-    org: Universidade do Estado do Rio de Janeiro, Rio de Janeiro - RJ
+    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
 #  - name: Arnab Bhattacharya
 #    org: IIT Kanpur, Kanpur, India
@@ -33,16 +33,16 @@
   column: 1
   members:
   - name: Marcelo Zamith
-    org: Instituto Multidisciplinar, Universidade Federal Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+    org: Universidade Federal Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
     homepage: ""
   - name: Leandro Santiago de Araújo
-    org: Instituto de Computação, Universidade Federal Fluminense, Niterói - RJ
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: ""
 - title: Coordenação dos Minicursos
   column: 1
   members:
   - name: Maria Clicia Castro
-    org: Universidade do Estado do Rio de Janeiro, Rio de Janeiro - RJ
+    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
   - name: Rafaela Brum
     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
@@ -114,5 +114,5 @@
   column: 1
   members:
   - name: Vinod Rebello
-    org: IC-UFF, Niterói
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: ""
