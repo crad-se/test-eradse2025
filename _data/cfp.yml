@@ -6,18 +6,51 @@ submission: ./submission.html
 areas:
 - category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
   topics:
-    - Digital lexicons, thesauri and wordnets
-    - Computational phonology and morphology
-    - Syntactic analysis
-    - Prose order normalisation
-    - Parsing
-    - Discourse analysis
-    - Structural semantics
-    - Machine translation
-    - Automatic analysis of Sanskrit corpus
-    - Navya-Nyāya and other technical language processing
-    - Information extraction
-    - Named entity recognition
+    - Algoritmos Paralelos e Distribuídos
+    - Aplicações em Agricultura, Biologia, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
+    - Arquitetura de Computadores e Processadores
+    - Arquiteturas Dedicadas e Específicas (GPUs, FPGAs, e outras)
+    - Avaliação, Medição e Predição de Desempenho
+    - Big Data
+    - Computação em Nuvem, Grade, Aglomerado (Cluster) e Peer-to-Peer
+    - Computação Móvel, Pervasiva e Embarcada
+    - Escalonamento e Balanceamento de Carga
+    - High Performance Storage Systems
+    - Inteligência Artificial e Computação de Alto Desempenho
+    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
+    - Parallel I/O
+    - Redes e Protocolos de Comunicação de Alto Desempenho
+    - Simulação de Arquiteturas e Sistemas Paralelos
+    - Sistemas Distribuídos
+    - Sistemas Operacionais
+    - Software Básico para Computação Paralela e Distribuída
+    - Técnicas de Modelagem e Simulação
+    - Técnicas e Métodos de Extração de Paralelismo
+    - Tolerância a Falhas
+    - Aplicações de Computação de Alto Desempenho em Ciências e Engenharias
+    - Aprendizado de Máquina e Computação de Alto Desempenho
+    - Arquiteturas Avançadas, Dedicadas e Específicas
+    - Avaliação, Medição e Predição de Desempenho
+    - Ciência de Dados e Computação de Alto Desempenho
+    - Computação de Alto Desempenho em Grade e na Nuvem
+    - Computação de Alto Desempenho Sustentável
+    - Computação em Aglomerados de Computadores
+    - Computação Heterogênea
+    - Computação Móvel de Alto Desempenho
+    - Computação Quântica e Alto Desempenho
+    - Escalonamento e Balanceamento de Carga
+    - Linguagens, Compiladores e Ferramentas para Alto Desempenho
+    - Memória Compartilhada Distribuída (DSM)
+    - Redes e Protocolos de Comunicação de Alto Desempenho
+    - Simulação de Arquiteturas e Sistemas Paralelos
+    - Sistemas de Arquivos e Entrada e Saída de Alto Desempenho
+    - Sistemas de Banco de Dados Paralelos e Distribuídos
+    - Sistemas de Memória
+    - Sistemas Operacionais
+    - Sistemas Tolerantes a Falhas
+    - Software Básico para Computação Paralela e Distribuída
+    - Técnicas e Métodos de Extração de Paralelismo
+    - Validação, Verificação e Teste de Aplicações Paralelas
 - category: "Shāstric Sanskrit Texts and Computation"
   topics:
     - Computer modeling and simulation of Paninian and other traditional grammars
