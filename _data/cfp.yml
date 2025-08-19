@@ -8,23 +8,23 @@ areas:
     - Arquitetura de Computadores e Processadores
     - Arquiteturas Dedicadas e Específicas (GPUs, FPGAs, e outras)
     - Arquiteturas Avançadas, Dedicadas e Específicas
-#    - Computação de Alto Desempenho Sustentável
-#    - Computação em Nuvem, Grade, Aglomerado (Cluster) e Peer-to-Peer
-#    - Computação Heterogênea
-#    - Computação Móvel de Alto Desempenho
-#    - Computação Móvel, Pervasiva e Embarcada
-#    - Computação Quântica e Alto Desempenho
-#    - High Performance Storage Systems
-#    - Memória Compartilhada Distribuída (DSM)
-#    - Redes e Protocolos de Comunicação de Alto Desempenho
-#- category: "Aplicações e Algoritmos Paralelos e Distribuídos"
-#  topics:
-#    - Aplicações de Computação de Alto Desempenho em Agricultura, Biologia, Ciência, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
-#    - Aprendizado de Máquina e Computação de Alto Desempenho
-#    - Aplicações de Big Data
-#    - Ciência de Dados e Computação de Alto Desempenho
-#    - Inteligência Artificial para Computação de Alto Desempenho
-#    - Computação de Alto Desempenho para Inteligência Artificial 
+    - Computação de Alto Desempenho para Inteligência Artificial
+    - Computação de Alto Desempenho Sustentável
+    - Computação em Nuvem, Grade, Aglomerado (Cluster) e Peer-to-Peer
+    - Computação Heterogênea
+    - Computação Móvel de Alto Desempenho
+    - Computação Móvel, Pervasiva e Embarcada
+    - Computação Quântica e Alto Desempenho
+    - High Performance Storage Systems
+    - Memória Compartilhada Distribuída (DSM)
+    - Redes e Protocolos de Comunicação de Alto Desempenho
+- category: "Aplicações e Algoritmos Paralelos e Distribuídos"
+  topics:
+    - Aplicações de Computação de Alto Desempenho em Agricultura, Biologia, Ciência, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
+    - Aprendizado de Máquina e Computação de Alto Desempenho
+    - Aplicações de Big Data
+    - Ciência de Dados e Computação de Alto Desempenho
+    - Inteligência Artificial para Computação de Alto Desempenho
 #- category: "Software Básico para Computação Paralela e Distribuída"
 #  topics:
 #    - Escalonamento e Balanceamento de Carga
