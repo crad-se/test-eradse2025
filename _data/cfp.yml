@@ -1,74 +1,44 @@
 description: >
-  Full papers are invited on original and unpublished research on various
-  aspects of Computational Linguistics and Digital Humanities related to
-  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+  São convidados artigos completos de pesquisas originais e inéditas sobre vários
+aspectos de computação de alto desempenho (CAD) e sistemas paralelas e distribuídas.
 submission: ./submission.html
 areas:
-- category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
+- category: "Projeto e Arquitetura"
   topics:
-    - Algoritmos Paralelos e Distribuídos
-    - Aplicações em Agricultura, Biologia, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
     - Arquitetura de Computadores e Processadores
     - Arquiteturas Dedicadas e Específicas (GPUs, FPGAs, e outras)
-    - Avaliação, Medição e Predição de Desempenho
-    - Big Data
+    - Arquiteturas Avançadas, Dedicadas e Específicas
+    - Computação de Alto Desempenho Sustentável
     - Computação em Nuvem, Grade, Aglomerado (Cluster) e Peer-to-Peer
+    - Computação Heterogênea
+    - Computação Móvel de Alto Desempenho
     - Computação Móvel, Pervasiva e Embarcada
-    - Escalonamento e Balanceamento de Carga
+    - Computação Quântica e Alto Desempenho
     - High Performance Storage Systems
-    - Inteligência Artificial e Computação de Alto Desempenho
-    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
-    - Parallel I/O
+    - Memória Compartilhada Distribuída (DSM)
     - Redes e Protocolos de Comunicação de Alto Desempenho
-    - Simulação de Arquiteturas e Sistemas Paralelos
+- category: "Aplicações e Algoritmos Paralelos e Distribuídos"
+  topics:
+    - Aplicações de Computação de Alto Desempenho em Agricultura, Biologia, Ciência, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
+    - Aprendizado de Máquina e Computação de Alto Desempenho
+    - Aplicações de Big Data
+    - Ciência de Dados e Computação de Alto Desempenho
+    - Inteligência Artificial para Computação de Alto Desempenho
+    - Computação de Alto Desempenho para Inteligência Artificial 
+- category: "Software Básico para Computação Paralela e Distribuída"
+  topics:
+    - Escalonamento e Balanceamento de Carga
+    - Sistemas de Arquivos e Entrada e Saída para CAD, Parallel I/O
+    - Sistemas de Banco de Dados Paralelos e Distribuídos
+    - Sistemas de Memória para Computação de Alto Desempenho
     - Sistemas Distribuídos
     - Sistemas Operacionais
     - Software Básico para Computação Paralela e Distribuída
-    - Técnicas de Modelagem e Simulação
-    - Técnicas e Métodos de Extração de Paralelismo
     - Tolerância a Falhas
-    - Aplicações de Computação de Alto Desempenho em Ciências e Engenharias
-    - Aprendizado de Máquina e Computação de Alto Desempenho
-    - Arquiteturas Avançadas, Dedicadas e Específicas
+- category: "Ferramentas e Avaliação"
+  topics:
     - Avaliação, Medição e Predição de Desempenho
-    - Ciência de Dados e Computação de Alto Desempenho
-    - Computação de Alto Desempenho em Grade e na Nuvem
-    - Computação de Alto Desempenho Sustentável
-    - Computação em Aglomerados de Computadores
-    - Computação Heterogênea
-    - Computação Móvel de Alto Desempenho
-    - Computação Quântica e Alto Desempenho
-    - Escalonamento e Balanceamento de Carga
-    - Linguagens, Compiladores e Ferramentas para Alto Desempenho
-    - Memória Compartilhada Distribuída (DSM)
-    - Redes e Protocolos de Comunicação de Alto Desempenho
-    - Simulação de Arquiteturas e Sistemas Paralelos
-    - Sistemas de Arquivos e Entrada e Saída de Alto Desempenho
-    - Sistemas de Banco de Dados Paralelos e Distribuídos
-    - Sistemas de Memória
-    - Sistemas Operacionais
-    - Sistemas Tolerantes a Falhas
-    - Software Básico para Computação Paralela e Distribuída
+    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
+    - Técnicas de Modelagem e Simulação de Arquiteturas e Sistemas Paralelos
     - Técnicas e Métodos de Extração de Paralelismo
     - Validação, Verificação e Teste de Aplicações Paralelas
-- category: "Shāstric Sanskrit Texts and Computation"
-  topics:
-    - Computer modeling and simulation of Paninian and other traditional grammars
-    - Theories of Śābdabodha and Sanskrit computational processing
-- category: "Sanskrit Digital Libraries Management"
-  topics:
-    - Tools for acquisition and maintenance of Sanskrit digital corpus
-    - Library crawlers or search tools in Sanskrit corpus
-    - Incorporation of grammatical information in Sanskrit corpus
-    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
-    - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
-    - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
-    - Digital cataloguing of manuscripts
-    - Annotation and editing
-    - Alignment of text with images (including manuscripts)
-    - User interface design
-- category: "Miscellaneous Computer Applications Relevant to Sanskrit"
-  topics:
-    - Software tools for teaching Sanskrit
-    - Sanskrit speech recognition and synthesis
-    - Tools and applications for Sanskrit dissemination
