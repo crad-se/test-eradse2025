@@ -1,6 +1,6 @@
 description: >
   São convidados artigos completos de pesquisas originais e inéditas sobre vários
-  aspectos de computação de alto desempenho (CAD) e sistemas paralelas e distribuídas.
+  aspectos de computação de alto desempenho (CAD) e sistemas paralelas e distribuídas
 submission: ./submission.html
 areas:
 - category: "Projeto e Arquitetura"
@@ -28,17 +28,15 @@ areas:
 - category: "Software Básico para Computação Paralela e Distribuída"
   topics:
     - Escalonamento e Balanceamento de Carga
-    - Sistemas de Arquivos e Entrada e Saída para CAD, Parallel I/O
+    - Sistemas de Arquivos e Entrada e Saída para CAD
     - Sistemas de Banco de Dados Paralelos e Distribuídos
     - Sistemas de Memória para Computação de Alto Desempenho
-    - Sistemas Distribuídos
     - Sistemas Operacionais
-    - Software Básico para Computação Paralela e Distribuída
     - Tolerância a Falhas
-#- category: "Ferramentas e Avaliação"
-#  topics:
-#    - Avaliação, Medição e Predição de Desempenho
-#    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
-#    - Técnicas de Modelagem e Simulação de Arquiteturas e Sistemas Paralelos
-#    - Técnicas e Métodos de Extração de Paralelismo
-#    - Validação, Verificação e Teste de Aplicações Paralelas
+- category: "Ferramentas e Avaliação"
+  topics:
+    - Avaliação, Medição e Predição de Desempenho
+    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
+    - Técnicas de Modelagem e Simulação de Arquiteturas e Sistemas Paralelos
+    - Técnicas e Métodos de Extração de Paralelismo
+    - Validação, Verificação e Teste de Aplicações Paralelas
