@@ -1,5 +1,5 @@
 portal: SBC JEMS3 Submission Portal
-url: "https://jems3.sbc.org.br/events/410"
+url: "https://jems3.sbc.org.br/erad-se2025"
 
 file_formats:
   - PDF
@@ -17,9 +17,9 @@ pagelimits:
     limit: 5
   - type: demo
     name: TCC ou Dissertação
-    limit: 8
+    limit: 6
 
-fontsize: 10
+fontsize: 12
 
 extra: |
   
