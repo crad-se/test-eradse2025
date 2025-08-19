@@ -11,18 +11,13 @@ slide_id: 2
             <p>{{site.data.cfp.description}}.</p>
 
             <p>
-                You are requested to submit your research paper using the {{site.data.submission.portal}}:
+                Solicitamos gentilmente que você envie seu artigo de pesquisa usando o {{site.data.submission.portal}}:
                 <a href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
             </p>
             <p>
-                The submissions must conform to the <a href="{{site.data.cfp.submission}}">Submission Guidelines</a>,
-                and must not exceed <b>{{site.data.submission.pagelimits[0].limit}}</b> pages including text, figures and references.
-                The submissions should include the title, abstract, and names and affiliations of all authors.
-            </p>
-
-            <p>
-                To prepare your submission, please use the LaTeX source files
-                listed on the website, and follow the instructions provided.
+                Ao preparar sua submissão, siga as instruções fornecidas nas <a href="{{site.data.cfp.submission}}">Diretrizes de Submissão</a>,
+                e não deve exceder <b>{{site.data.submission.pagelimits[0].limit}}</b> páginas incluindo texto, figuras e referências.
+                A submissão deve incluir o título, o resumo e os nomes e afiliações de todos os autores.
             </p>
         </div>
 
@@ -35,7 +30,7 @@ slide_id: 2
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
         {% if site.data.cfp %}
         <p>
-            The areas of interest include, but are not limited to:
+            As áreas de interesse incluem, mas não estão limitadas a:
         </p>
         <ul>
             {% for area in site.data.cfp.areas %}
