@@ -25,16 +25,16 @@ areas:
     - Aplicações de Big Data
     - Ciência de Dados e Computação de Alto Desempenho
     - Inteligência Artificial para Computação de Alto Desempenho
-#- category: "Software Básico para Computação Paralela e Distribuída"
-#  topics:
-#    - Escalonamento e Balanceamento de Carga
-#    - Sistemas de Arquivos e Entrada e Saída para CAD, Parallel I/O
-#    - Sistemas de Banco de Dados Paralelos e Distribuídos
-#    - Sistemas de Memória para Computação de Alto Desempenho
-#    - Sistemas Distribuídos
-#    - Sistemas Operacionais
-#    - Software Básico para Computação Paralela e Distribuída
-#    - Tolerância a Falhas
+- category: "Software Básico para Computação Paralela e Distribuída"
+  topics:
+    - Escalonamento e Balanceamento de Carga
+    - Sistemas de Arquivos e Entrada e Saída para CAD, Parallel I/O
+    - Sistemas de Banco de Dados Paralelos e Distribuídos
+    - Sistemas de Memória para Computação de Alto Desempenho
+    - Sistemas Distribuídos
+    - Sistemas Operacionais
+    - Software Básico para Computação Paralela e Distribuída
+    - Tolerância a Falhas
 #- category: "Ferramentas e Avaliação"
 #  topics:
 #    - Avaliação, Medição e Predição de Desempenho
