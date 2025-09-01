@@ -156,12 +156,21 @@ sponsors:
   - name: Hewlett Packard Enterprise Company (HPE) 
     logo_path: ./assets/images/sponsors/HPE.png
     url: https://www.hpe.com/br/pt/home.html
+  - name: Hewlett Packard Enterprise Company (HPE) 
+    logo_path: ./assets/images/sponsors/HPE.png
+    url: https://www.hpe.com/br/pt/home.html
+    style: "background: gold; border-radius: 10px; padding: 8px;"
 #  - name: LexisNexis Risk Solutions
 #    logo_path: ./assets/images/sponsors/sangrah-logo.jpg
 #    url: https://sangrah.org/
 #  - name: AWS
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 #    url: https://aws.amazon.com/
+
+organizer:
+  - logo_path: ./assets/images/sponsors/UFF.png
+    url: https://www.uff.br
+    
 social_media:
   facebook_link:
   twitter_link:
