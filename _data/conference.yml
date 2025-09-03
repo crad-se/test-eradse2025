@@ -167,7 +167,7 @@ sponsors:
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 #    url: https://aws.amazon.com/
 
-organizer:
+organizers:
   - logo_path: ./assets/images/sponsors/UFF.png
     url: https://www.ic.uff.br
   - logo_path: ./assets/images/sponsors/logo-ufrj.png
