@@ -15,10 +15,10 @@ description: |
           <li class="text-info">
               <a href="#formas-pagamento" class="registration-summary">Formas de pagamento</a>
           </li>
-          <li class="lead">
+          <li class="text-info">
               <a href="#inscricao-autores" class="registration-summary">Inscrição para autores</a>
           </li>
-          <li class="lead">
+          <li class="text-info">
              <a href="#politica-cancelamento" class="registration-summary">Política de cancelamento</a>
           </li>
       </ul>
@@ -28,8 +28,8 @@ description: |
               <a href="https://www.sbc.org.br"><img src="assets/images/SBC-Cbanner.png" width="100%"></a>
             </div>
         </div>
-            <p class="lead">
-            Participantes não associados à SBC ou associados com anuidade próxima do vencimento podem se associar ou renovar a associação junto com a inscrição, escolhendo as categorias COMBO com um desconto no valor da inscrição.
+            <p class="text-info">
+            <br> Participantes não associados à SBC ou associados com anuidade próxima do vencimento podem se associar ou renovar a associação junto com a inscrição, escolhendo as categorias COMBO com um desconto no valor da inscrição.
             As categorias COMBO são a opção mais vantajosa para os não associados à SBC, pois os valores de inscrição são menores do que os das categorias sem combo e incluem a associação à SBC.
         </p>
         <p>
