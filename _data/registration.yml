@@ -1,7 +1,7 @@
-about: "Registrations for 7th ISCLS are now open. You may register using the following link."
-url: "https://donorbox.org/events/535583"
+about: "Para realizar sua inscrição na ERAD-SE 2025, por favor, acesse o formulário de inscrição on-line da SBC."
+url: "https://centraldesistemas.sbc.org.br/ecos/erad-se2025"
 description: |
-  <h5 class="text-info">Registration</h5>
+  <h5 class="text-info">Inscrições</h5>
 
   <p>
     Please note the fees will increase after 10/01/2024. Please register before
@@ -18,14 +18,14 @@ description: |
     alternatives.
   </p>
 
-  <div id="donorboxEmbed"></div>
-  <script type='text/javascript' src='https://donorbox.org/embed_event_widget.js'></script>
-  <script type='text/javascript'>
-    DonorboxEventWidget.embed({
-      container: 'donorboxEmbed',
-      embedFormSlug: 'https://donorbox.org/embed_event/535583'
-    });
-  </script>
+  #<div id="donorboxEmbed"></div>
+  #<script type='text/javascript' src='https://donorbox.org/embed_event_widget.js'></script>
+  #<script type='text/javascript'>
+  #  DonorboxEventWidget.embed({
+  #    container: 'donorboxEmbed',
+  #    embedFormSlug: 'https://donorbox.org/embed_event/535583'
+  #  });
+  #</script>
 
   <br>
-  Check the <a class="font-weight-bold" href="./venue.html">Venue</a> tab for details about accommodation.
+  Informações sobre hotéis próximos ao evento estarão disponíveis na aba <a class="font-weight-bold" href="./venue.html">Local</a>.
