@@ -1,0 +1,26 @@
+---
+title: SBC Combo
+layout: page
+slide_id: 3
+---
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+            <h5>Registration</h5>
+            {% if site.data.registration.about %}
+            <p>
+                {{site.data.registration.about}}
+            </p>
+            {% endif %}
+            {% if site.data.registration.url %}
+            <p>
+                <a href="{{site.data.registration.url}}">
+                    {{site.data.registration.url}}
+                </a>
+            </p>
+            {% endif %}
+            
+            
+            {% include contact-us.html %}
+    </div>
+</div>
