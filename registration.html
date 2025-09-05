@@ -6,33 +6,38 @@ slide_id: 6
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-danger">
-            <h5>Inscreve-se Já!</h5>
-            {% if site.data.registration.about %}
-            <p>
-                {{site.data.registration.about}}
-            </p>
-            {% endif %}
-            {% if site.data.registration.url %}
-            <p class="text-center"> <a href="{{site.data.registration.url}}">
-                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i>
-                <strong> {{site.data.registration.url}} </strong></a>
-            </p>
-            {% endif %}
-            {% if site.data.registration.description %}
-            <p>
-                {{site.data.registration.description}}
-            </p>
-            {% endif %}
-            <!--
-            <h5>Visa</h5>
-            <p>
-                If you are an international traveller and need a visa to enter
-                {{site.data.conference.country}}, please contact us after your paper is accepted.
-            </p>
-            -->
+        <h5>Inscreve-se Já!</h5>
+        {% if site.data.registration.about %}
+        <p>
+            {{site.data.registration.about}}
+        </p>
+        {% endif %}
+        {% if site.data.registration.url %}
+        <p class="text-center"> <a href="{{site.data.registration.url}}">
+            <i class="fa fa-external-link fa-fw" aria-hidden="true"></i>
+            <strong> {{site.data.registration.url}} </strong></a>
+        </p>
+        {% endif %}
+        {% if site.data.registration.description %}
+        <p>
+            {{site.data.registration.description}}
+        </p>
+        {% endif %}
+        <!--
+        <h5>Visa</h5>
+        <p>
+            If you are an international traveller and need a visa to enter
+            {{site.data.conference.country}}, please contact us after your paper is accepted.
+        </p>
+        -->
     </div>            
     <div class="text-body">
+        
+        <h5>Visitantes</h5>
+        <p>
+            Para participantes fora do Rio metropolitana, informações sobre hotéis próximos ao local do 
+            evento estarão disponíveis na aba <a class="font-weight-bold" href="./venue.html">Local</a>. 
+        </p>
         {% include contact-us.html %}
     </div>
-    
 </div>
