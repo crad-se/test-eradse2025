@@ -105,13 +105,23 @@ navbar:
     path: /program.html
     visible: True
   - id: 5
+    label: Inscrições
+    visible: True
+    children:
+    - id: 1
+      label: Promo
+      path: /combo.html
+      visible: True
+    - id: 2
+      label: Valores
+      path: /registration.html
+      visible: True
+  - id: 6
     label: Venue
     path: /venue.html
     visible: True
-  - id: 6
-    label: Inscrições
-    path: /registration.html
-    visible: True
+  
+
 deadline_timezone: AoE
 deadlines:
 #  - date: 2025-09-22
