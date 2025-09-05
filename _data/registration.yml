@@ -1,18 +1,18 @@
 about: "Para realizar sua inscrição na ERAD-SE 2025, por favor, acesse o formulário de inscrição on-line da SBC:"
-url: "https://centraldesistemas.sbc.org.br/ecos/erad-se2025"
+url: "https://centraldesistemas.sbc.org.br/ecos/eradse2025"
 description: |
   <h5 class="text-info">Inscrições</h5>
       <p>
           Para mais informações relativas à inscrição no evento, basta navegar pelas opções abaixo.
       </p>
       <ul>
-          <li class="lead">
+          <li class="text-info">
               <a href="#inscricao-promocional" class="registration-summary">Inscrição promocional</a>
           </li>
-          <li class="lead">
+          <li class="text-info">
               <a href="#valores-inscricao" class="registration-summary">Valores de inscrição</a>
           </li>
-          <li class="lead">
+          <li class="text-info">
               <a href="#formas-pagamento" class="registration-summary">Formas de pagamento</a>
           </li>
           <li class="lead">
@@ -22,11 +22,29 @@ description: |
              <a href="#politica-cancelamento" class="registration-summary">Política de cancelamento</a>
           </li>
       </ul>
-      <h4 id="inscricao-promocional">Inscrição promocional</h4>
+      <h5 id="inscricao-promocional">Inscrição Promocional</h5>
          <div class="row">
             <div class="col">
               <a href="https://www.sbc.org.br"><img src="assets/images/SBC-Cbanner.png" width="100%"></a>
             </div>
         </div>
+            <p class="lead">
+            Participantes não associados à SBC ou associados com anuidade próxima do vencimento podem se associar ou renovar a associação junto com a inscrição, escolhendo as categorias COMBO com um desconto no valor da inscrição.
+            As categorias COMBO são a opção mais vantajosa para os não associados à SBC, pois os valores de inscrição são menores do que os das categorias sem combo e incluem a associação à SBC.
+        </p>
+        <p>
+            Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representar a nossa área de atuação junto aos diversos setores. Que tal fazer parte da nossa comunidade?
+            Confira alguns benefícios exclusivos de associado:
+        </p>
+        <ul>
+            <li>Acesso à rede sem fio Eduroam</li>
+            <li>Acesso às listas de discussão exclusivas para associados da SBC, com mais de 8 mil inscritos</li>
+            <li>Desconto em inscrições nos mais de 40 eventos realizados anualmente pela SBC</li>
+            <li>Valor de inscrição diferenciado no POSCOMP</li>
+            <li>Acesso aos estudos realizados pela SBC e destinados a órgãos públicos ou privados, expressando posições políticas da sociedade</li>
+        </ul>
+        <p>
+            Acesse o <a href="https://www.sbc.org.br/" target="_blank">site da SBC</a> e veja por que ser associado.
+        </p>
   <br>
   Informações sobre hotéis próximos ao evento estarão disponíveis na aba <a class="font-weight-bold" href="./venue.html">Local</a>.
