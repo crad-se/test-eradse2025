@@ -5,9 +5,8 @@ slide_id: 6
 ---
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
-    <div class="alert alert-warning rounded text-center mx-3 my-5"> 
-	<!-- <div class="col text-danger"> -->
-        <h5 class="text-center">Inscreve-se já!</h5>
+    <div class="alert alert-danger rounded text-center mx-3 my-5"> 
+	    <h5 class="text-center">Inscreve-se já!</h5>
         {% if site.data.registration.about %}
         <p class="text-center">
             {{site.data.registration.about}}
@@ -19,7 +18,9 @@ slide_id: 6
             <strong> {{site.data.registration.url}} </strong></a>
         </p>
         {% endif %}
-        {% if site.data.registration.description %}
+	</div>	
+    <div class="col text-body">     
+		{% if site.data.registration.description %}
         <p>
             {{site.data.registration.description}}
         </p>
