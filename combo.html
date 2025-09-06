@@ -5,28 +5,14 @@ slide_id: 3
 ---
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
-    <div class="col text-muted">
-            <h5>Registration</h5>
-            {% if site.data.registration.about %}
-            <p>
-                {{site.data.registration.about}}
-            </p>
-            {% endif %}
-            {% if site.data.registration.url %}
-            <p>
-                <a href="{{site.data.registration.url}}">
-                    {{site.data.registration.url}}
-                </a>
-            </p>
-            {% endif %}
-     
+    <div class="col text-dark">   
          <h5 id="inscricao-promocional">Inscrição Promocional</h5>
          <div class="row">
             <div class="col">
-              <a href="https://www.sbc.org.br"><img src="assets/images/SBC-Cbanner.png" width="100%"></a>
+              <a href="{{site.data.registration.url}}"><img src="assets/images/SBC-Cbanner.png" width="100%"></a>
             </div>
         </div>
-            <p class="text-info">
+            <p>
             <br> Participantes não associados à SBC ou associados com anuidade próxima do vencimento podem se associar ou renovar a associação junto com a inscrição, escolhendo as categorias COMBO com um desconto no valor da inscrição.
             As categorias COMBO são a opção mais vantajosa para os não associados à SBC, pois os valores de inscrição são menores do que os das categorias sem combo e incluem a associação à SBC.
         </p>
