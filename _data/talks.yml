@@ -2,6 +2,7 @@ about: Abaixo, encontram-se detalhes sobre as palestrantes convidadas da
 {{site.data.conference.short_title}} e suas palestras.
 palestra:
   - id: 0
+    type: Convidada
     title: Jornada de HPC da Petrobras
     speaker: Felipe Portella e Guilherme Vilela
     date: 5 de novembro
@@ -11,6 +12,7 @@ palestra:
     bio: > ""
     image_path: ./assets/images/speakers/FelipePortella.png
   - id: 1
+    type: Convidada
     title: Tornando o Invisível Visível: Observabilidade em Ambientes Fog Computing
     speaker: Aletéia Patrícia Favacho de Araújo
     date: 6 de novembro
