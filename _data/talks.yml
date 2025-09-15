@@ -5,18 +5,24 @@ palestras:
   - type: Convidada
     title: Jornada de HPC da Petrobras
     abstract: >
-      <!-- Adicione aqui um resumo, se disponível -->
+      Apresentação da trajetória de mais de 50 anos do HPC na Petrobras, desde os primeiros sistemas de 
+      grande porte até a atual infraestrutura que coloca a empresa como referência em computação de 
+      alto desempenho na América Latina com as maiores máquinas no TOP500. Além do aspecto histórico, a 
+      palestra abordará os projetos atuais de desenvolvimento em HPC incluindo a estratégia de 
+      transbordo para cloud, pesquisas em novas arquiteturas computacionais para geofísica envolvendo 
+      RISC-V, e desenvolvimentos desde Fortran até tecnologias modernas como investigações em 
+      computação quântica.
     speaker: 
       - name: Felipe Portella
         post: ""
-        org: Universidade Federal Fluminense (UFF), Niterói - RJ
+        org: Universidade Federal Fluminense (UFF), Rio de Janeiro - RJ
         homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
         bio: > 
           <!-- Adicione aqui uma bio, se disponível -->
         image_path: ./assets/images/speakers/FelipePortella.png
       - name: Guilherme Vilela
         post: ""
-        org: Universidade Federal Fluminense (UFF), Niterói - RJ
+        org: Universidade Federal Fluminense (UFF), Rio de Janeiro - RJ
         homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
         bio: > 
           <!-- Adicione aqui uma bio, se disponível -->
