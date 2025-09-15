@@ -1,0 +1,32 @@
+---
+title: Palestras
+layout: page
+slide_id: 3
+---
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-dark">
+        <h5 id="inscricao-promocional">Palestras Convidadas</h5>
+        {% if site.data.talks.about %}
+          {% for talk in site.data.talks %}
+          <div> 
+            <p>
+            </p>
+            <ul>
+              <li></li>
+            </ul>
+            <p>
+              Acesse o <a href="./programa.html"><strong>cronograma</strong></a> para ver o resto da programação do {{site.data.conference.short_title}}.
+            </p>
+          </div>
+          {% endfor %}
+        {% else %}
+          <div class="alert alert-warning rounded text-center mx-3 my-5">
+            TBA
+          </div>
+        {% endif %}
+        <div class="conference-text">
+            {% include contact-us.html %}
+        </div>
+    </div>
+</div>
