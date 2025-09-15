@@ -12,7 +12,7 @@ palestra:
         org: Universidade Federal Fluminense (UFF), Niterói - RJ
         homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
         bio: > 
-        <!-- Adicione aqui uma bio, se disponível -->
+          <!-- Adicione aqui uma bio, se disponível -->
         image_path: ./assets/images/speakers/FelipePortella.png
       - name: Guilherme Vilela
         post: ""
@@ -42,15 +42,15 @@ palestra:
         org: Universidade de Brasília (UnB), Brasília - DF
         homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
         bio: > 
-      Aletéia Patrícia Favacho de Araújo) possui graduação no curso de Bacharelado em Ciências da 
-      Computação pela Universidade Federal do Pará (1997), mestrado em Ciências da Computação e Matemática 
-      Computacional pela Universidade de São Paulo (1999), doutorado em Informática pela Pontifícia 
-      Universidade Católica do Rio de Janeiro (2008) e ano passado (2024) fez pós-doutorado na University 
-      of Melbourne na Austrália. É bolsista de Produtividade em Pesquisa do CNPq – Nível C e professora 
-      Associada IV da Universidade de Brasília (UnB. Tem experiência na área de Ciência da Computação, 
-      com ênfase em Computação de Alto Desempenho, Nuvem Computacional e Fog Computing. Ela é cofundadora 
-      e coordenadora do projeto de extensão Meninas.comp da UnB desde 2010. Atualmente, é coordenadora do 
-      Programa Nacional da SBC – Meninas Digitais.
+          Aletéia Patrícia Favacho de Araújo) possui graduação no curso de Bacharelado em Ciências da 
+          Computação pela Universidade Federal do Pará (1997), mestrado em Ciências da Computação e Matemática 
+          Computacional pela Universidade de São Paulo (1999), doutorado em Informática pela Pontifícia 
+          Universidade Católica do Rio de Janeiro (2008) e ano passado (2024) fez pós-doutorado na University 
+          of Melbourne na Austrália. É bolsista de Produtividade em Pesquisa do CNPq – Nível C e professora 
+          Associada IV da Universidade de Brasília (UnB. Tem experiência na área de Ciência da Computação, 
+          com ênfase em Computação de Alto Desempenho, Nuvem Computacional e Fog Computing. Ela é cofundadora 
+          e coordenadora do projeto de extensão Meninas.comp da UnB desde 2010. Atualmente, é coordenadora do 
+          Programa Nacional da SBC – Meninas Digitais.
         image_path: ./assets/images/speakers/Aleteia.jpg
     date: 6 de novembro
     time: das 11 às 12 horas
