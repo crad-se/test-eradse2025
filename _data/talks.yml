@@ -1,6 +1,4 @@
-about: >
-    Abaixo, encontram-se detalhes sobre as palestrantes convidadas da 
-    {{site.data.conference.short_title}} e suas palestras.
+about: 
 palestra:
   - id: 0
     type: Convidada
