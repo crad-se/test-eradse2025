@@ -9,9 +9,9 @@ slide_id: 3
         <h5 id="inscricao-promocional">Palestras Convidadas</h5>
         {% if site.data.talks.about %}
           {% for talk in site.data.talks %}
-              <div id="P1" class="keynote">
-                <h3>Palestra {{talk.type}}</h3>
-                    <h3>{{talk.type}}</h3>
+              <div>
+                <h6>Palestra {{talk.type}}</h6>
+                    <h6>{{talk.title}}</h6>
                     <p class="lead keynote-date">
                         <b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}
                     </p>
