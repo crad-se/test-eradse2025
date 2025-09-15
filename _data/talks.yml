@@ -1,6 +1,3 @@
-about: >
-    Abaixo, encontram-se detalhes sobre as palestrantes convidadas da 
-    {{site.data.conference.short_title}} e suas palestras.
 palestras:
   - type: Convidada
     title: Jornada de HPC da Petrobras
