@@ -8,8 +8,8 @@ palestra:
     date: 5 de novembro
     time: das 11 às 12 horas 
     location: Auditório
-    abstract: > ""
-    bio: > ""
+    abstract:  ""
+    bio:  ""
     image_path: ./assets/images/speakers/FelipePortella.png
   - id: 1
     type: Convidada
