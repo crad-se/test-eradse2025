@@ -1,5 +1,6 @@
-about: "Abaixo, encontram-se detalhes sobre as palestrantes convidadas da 
-{{site.data.conference.short_title}} e suas palestras."
+about: >
+    Abaixo, encontram-se detalhes sobre as palestrantes convidadas da 
+    {{site.data.conference.short_title}} e suas palestras.
 palestra:
   - id: 0
     type: Convidada
@@ -8,8 +9,10 @@ palestra:
     date: 5 de novembro
     time: das 11 às 12 horas 
     location: Auditório
-    abstract:  ""
-    bio:  ""
+    abstract: >
+      <!-- Adicione aqui um resumo, se disponível -->
+    bio: > 
+      <!-- Adicione aqui uma bio, se disponível -->
     image_path: ./assets/images/speakers/FelipePortella.png
   - id: 1
     type: Convidada
@@ -18,23 +21,25 @@ palestra:
     date: 6 de novembro
     time: das 11 às 12 horas
     location: Auditório
-    abstract: > A crescente complexidade dos sistemas distribuídos no Fog Computing exige novas abordagens 
-    para garantir eficiência, confiabilidade e desempenho. Mais do que monitorar, é necessário tornar 
-    visíveis os estados internos do sistema, possibilitando diagnósticos proativos e tomadas de decisão 
-    inteligentes. Nesta palestra, discutiremos os fundamentos e a importância da observabilidade em 
-    ambientes Fog Computing, explorando como métricas, logs e traces podem ser combinados para fornecer 
-    uma visão holística do comportamento do sistema. O objetivo é mostrar que, ao iluminar o que antes 
-    era invisível, a observabilidade se torna um pilar estratégico para a consolidação do Fog Computing 
-    como infraestrutura essencial no Continuum Fog–Cloud, impulsionando inovações em áreas críticas como 
-    saúde digital e cidades inteligentes.
-    bio: > Aletéia Patrícia Favacho de Araújo possui graduação no curso de Bacharelado em Ciências da 
-    Computação pela Universidade Federal do Pará (1997), mestrado em Ciências da Computação e Matemática 
-    Computacional pela Universidade de São Paulo (1999), doutorado em Informática pela Pontifícia 
-    Universidade Católica do Rio de Janeiro (2008) e ano passado (2024) fez pós-doutorado na University 
-    of Melbourne na Austrália. É bolsista de Produtividade em Pesquisa do CNPq – Nível C e professora 
-    Associada IV da Universidade de Brasília (UnB). Tem experiência na área de Ciência da Computação, 
-    com ênfase em Computação de Alto Desempenho, Nuvem Computacional e Fog Computing. Ela é cofundadora 
-    e coordenadora do projeto de extensão Meninas.comp da UnB desde 2010. Atualmente, é coordenadora do 
-    Programa Nacional da SBC – Meninas Digitais.
+    abstract: > 
+      A crescente complexidade dos sistemas distribuídos no Fog Computing exige novas abordagens 
+      para garantir eficiência, confiabilidade e desempenho. Mais do que monitorar, é necessário tornar 
+      visíveis os estados internos do sistema, possibilitando diagnósticos proativos e tomadas de decisão 
+      inteligentes. Nesta palestra, discutiremos os fundamentos e a importância da observabilidade em 
+      ambientes Fog Computing, explorando como métricas, logs e traces podem ser combinados para fornecer 
+      uma visão holística do comportamento do sistema. O objetivo é mostrar que, ao iluminar o que antes 
+      era invisível, a observabilidade se torna um pilar estratégico para a consolidação do Fog Computing 
+      como infraestrutura essencial no Continuum Fog–Cloud, impulsionando inovações em áreas críticas como 
+      saúde digital e cidades inteligentes.
+    bio: > 
+      Aletéia Patrícia Favacho de Araújo possui graduação no curso de Bacharelado em Ciências da 
+      Computação pela Universidade Federal do Pará (1997), mestrado em Ciências da Computação e Matemática 
+      Computacional pela Universidade de São Paulo (1999), doutorado em Informática pela Pontifícia 
+      Universidade Católica do Rio de Janeiro (2008) e ano passado (2024) fez pós-doutorado na University 
+      of Melbourne na Austrália. É bolsista de Produtividade em Pesquisa do CNPq – Nível C e professora 
+      Associada IV da Universidade de Brasília (UnB). Tem experiência na área de Ciência da Computação, 
+      com ênfase em Computação de Alto Desempenho, Nuvem Computacional e Fog Computing. Ela é cofundadora 
+      e coordenadora do projeto de extensão Meninas.comp da UnB desde 2010. Atualmente, é coordenadora do 
+      Programa Nacional da SBC – Meninas Digitais.
     image_path: ./assets/images/speakers/Aleteia.jpg
   
