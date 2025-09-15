@@ -7,18 +7,18 @@ slide_id: 3
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-dark">
         <h6 class="text-info">Palestrantes Convidadas</h6>
-        {% if site.data.talks.about %} 
+        {% if site.data.talks.palestras %} 
             <div class="conference-text">
-              <p>{{site.data.talks.about}}</p>
+              <p> Abaixo, encontram-se detalhes sobre as palestrantes convidadas da 
+                  {{site.data.conference.short_title}} e suas palestras.</p>
             </div>
             {% for talk in site.data.talks.palestras %}
             <div>
-              <h6>Palestra {{talk.type}}</h6>
-              <h6>{{talk.title}}</h6>
-              <p class="lead">
+              <h6>Palestra {{talk.type}}</h6> entitulada <h6><i>{{talk.title}}</i></h6>
+              <p>
                 <b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}
               </p>
-              <p class="lead">
+              <p>
                 <b>Resumo</b>: {{talk.abstract}}
               </p>
               <h6>Palestrante</h6>
