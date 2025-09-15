@@ -6,41 +6,40 @@ slide_id: 3
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-dark">
-        <h5 id="inscricao-promocional">Palestras Convidadas</h5>
+        <h6 class="text-info">Palestrantes Convidadas</h6>
         {% if site.data.talks.about %} 
             <div class="conference-text">
-            <p class="lead">Chamada de Trabalhos dos Fóruns</p>
-            <p>{{site.data.cfp.description}}</p>
+              <p>{{site.data.cfp.description}}</p>
             </div>
-          {% for talk in site.data.talks %}
-              <div>
-                <h6>Palestra {{talk.type}}</h6>
-                    <h6>{{talk.title}}</h6>
-                    <p class="lead">
-                        <b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}
-                    </p>
-                    <p class="lead">
-                        <b>Resumo</b>: {{talk.abstract}}
-                    </p>
-                    <h4>Palestrante</h4>
-                    <div class="row">
-                        <div class col-md-12> 
-                            <img class="speaker-photo float-start" src="{{talk.image_path}}" alt="{{talk.speaker}}">
+            {% for talk in site.data.talks %}
+            <div>
+              <h6>Palestra {{talk.type}}</h6>
+              <h6>{{talk.title}}</h6>
+              <p class="lead">
+                <b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}
+              </p>
+              <p class="lead">
+                <b>Resumo</b>: {{talk.abstract}}
+              </p>
+              <h6>Palestrante</h6>
+              <div class="row">
+                  <div class col-md-12> 
+                    <img class="speaker-photo float-start" src="{{talk.image_path}}" alt="{{talk.speaker}}">
                             
-                            <p class="lead speaker-bio">
-                                <b>{{talk.speaker}}</b> - {{talk.bio}}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-          {% endfor %}
-          <p>
-            Acesse o <a href="./program.html"><strong>cronograma</strong></a> para ver o resto da programação do {{site.data.conference.short_title}}.
-          </p>
+                    <p class="lead speaker-bio">
+                        <b>{{talk.speaker}}</b> - {{talk.bio}}
+                    </p>
+                  </div>
+              </div>
+            </div>
+            {% endfor %}
+            <p>
+              Acesse o <a href="./program.html"><strong>cronograma</strong></a> para ver o resto da programação do {{site.data.conference.short_title}}.
+            </p>
         {% else %}
-          <div class="alert alert-warning rounded text-center mx-3 my-5">
+        <div class="alert alert-warning rounded text-center mx-3 my-5">
             TBA
-          </div>
+        </div>
         {% endif %}
         <div class="conference-text">
             {% include contact-us.html %}
