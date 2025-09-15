@@ -19,7 +19,7 @@ palestra:
         org: Universidade Federal Fluminense (UFF), Niterói - RJ
         homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
         bio: > 
-        <!-- Adicione aqui uma bio, se disponível -->
+          <!-- Adicione aqui uma bio, se disponível -->
         image_path: ./assets/images/speakers/FelipePortella.png        
     date: 5 de novembro
     time: das 11 às 12 horas 
