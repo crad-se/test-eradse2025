@@ -29,19 +29,18 @@ slide_id: 3
             <p><b>Palestrante(s)</b></p>
             <div class="card">
             {% if talk.speakers %}
-                <div class="card-header text-white bg-dark"><strong>{{talk.title}}</strong></div>
                 {% for speaker in talk.speakers %}
+                    <div class="card-header text-white bg-dark"><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a></div>
                     <div class="card-block bg-light committee">
-                        <p><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a></p>
                         {% if speaker.post %}
                             <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.post }}</p>
                         {% endif %}
                         <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.org }}</p>
                         <div class="row">
                             <div class col-md-12> 
-                                <img class="speaker-photo float-start" src="{{speaker.image_path}}" 
+                                 <p><img class="speaker-photo float-start" src="{{speaker.image_path}}" 
                                 alt="{{speaker.name}}">                           
-                                <p><b>Sobre a palestrante:</b> {{speaker.bio}}</p>
+                               <b>Sobre a palestrante:</b> {{speaker.bio}}</p>
                             </div>
                         </div>
                     </div>
