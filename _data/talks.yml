@@ -11,19 +11,29 @@ palestras:
       computação quântica.
     speakers: 
       - name: Felipe Portella
-        post: ""
-        org: Universidade Federal Fluminense (UFF), Rio de Janeiro - RJ
-        homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
+        post: IT Advisor
+        org: Petróleo Brasileiro S.A. (PETROBRAS), Rio de Janeiro - RJ
+        homepage: https://www.linkedin.com/in/felipeportella/
         bio: > 
-          <!-- Adicione aqui uma bio, se disponível -->
+          Felipe Portella ingressou na Petrobras em 2007 e atualmente trabalha como consultor de TI 
+          especializado em computação de alto desempenho para simulação de reservatórios de petróleo. 
+          Ele possui mestrado em Ciência da Computação pela Pontifícia Universidade Católica do Rio de 
+          Janeiro em 2008 e obteve seu doutorado em 2024 pela Universidade Politécnica da Catalunha, 
+          realizado em colaboração com o Barcelona Supercomputing Center. Seu foco recente está nos 
+          desafios de cloud-bursting em HPC.
         image_path: ./assets/images/speakers/FelipePortella.png
       - name: Guilherme Vilela
-        post: ""
-        org: Universidade Federal Fluminense (UFF), Rio de Janeiro - RJ
-        homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
+        post: Systems Engineer
+        org: Petróleo Brasileiro S.A. (PETROBRAS), Rio de Janeiro - RJ
+        homepage: https://www.linkedin.com/in/guilhermesvilela/
         bio: > 
-          <!-- Adicione aqui uma bio, se disponível -->
-        image_path: ./assets/images/speakers/FelipePortella.png        
+          Guilherme Vilela é engenheiro eletrônico com mestrado em engenharia de sistemas pela Coppe e 
+          atualmente trabalha como consultor de HPC na Petrobras. Suas responsabilidades incluem 
+          projetar e definir especificações técnicas de soluções HPC, bem como solucionar problemas de 
+          desempenho relacionados a clusters Linux. Participou de vários projetos de supercomputadores, 
+          incluindo os cinco maiores e mais eficientes supercomputadores da América Latina, de acordo 
+          com o TOP500 e o Green500.
+        image_path: ./assets/images/speakers/GuihermeVilela.jpg        
     date: 5 de novembro
     time: das 11 às 12 horas 
     location: Auditório
@@ -57,4 +67,46 @@ palestras:
         image_path: ./assets/images/speakers/Aleteia.jpg
     date: 6 de novembro
     time: das 11 às 12 horas
+    location: Auditório
+  - type: Convidada
+    title: "Introdução ao Aprendizado de Máquina através de algoritmos com interface Myriad na plataforma HPCC Systems."
+    abstract: > 
+      A plataforma HPCC Systems de código aberto utiliza arquitetura de dados distribuída e uma metodologia 
+      de processamento paralelo para trabalhar com grandes conjuntos de dados. O "pipeline" de dados na 
+      plataforma acompanha os dados desde a origem até a sua ingestão no cluster Thor, onde eles são 
+      refinados através de limpeza e padronização dos dados e, em seguida, enriquecidos, para depois serem 
+      disponibilizados para aplicações de consulta em tempo real hospedadas no cluster Roxie. Em conjunto 
+      com essas duas arquiteturas de clusters e, compondo o chamado Power Trio, se faz presente a linguagem 
+      ECL, sendo a única linguagem necessária para expressar algoritmos de dados em toda a plataforma HPCC 
+      Systems. No cluster Thor, a linguagem ECL expressa “workflows” de dados que consistem em carregamento 
+      de dados, transformação, vinculação, indexação etc. No cluster Roxie, a linguagem ECL define serviços 
+      de consultas de dados. A linguagem ECL é implicitamente paralela, portanto, o mesmo código ECL 
+      desenvolvido para ser executado em um cluster de nó único pode ser executado com a mesma facilidade em 
+      um cluster com centenas de nós. O programador não precisa se preocupar em implementar a paralelização, 
+      e a linguagem ECL possui uma função otimizadora que garante o melhor desempenho para uma arquitetura 
+      específica. Integradas à linguagem ECL encontram-se disponíveis diversas bibliotecas de Machine 
+      Learning aplicáveis às várias categorias de aprendizado de máquina, onde cada algoritmo tem suas 
+      próprias peculiaridades, as quais devem ser levadas em consideração para maximizar a precisão 
+      preditiva, tendo em conta que todos os "bundles" operam de maneira muito semelhante, com algumas 
+      variações menores. Por esses motivos, é muito importante que não seja utilizada a exploração de 
+      Machine Learning para produzir produtos ou reivindicar habilidades sem antes consultar a documentação 
+      que acompanha cada "bundle", a fim de usá-lo de forma efetiva. Finalmente, objetivando demonstrar a 
+      aplicação de algoritmos de Aprendizado de Máquina com interface Myriad na plataforma HPCC Systems, 
+      será apresentado um estudo de caso durante a realização do “Minicurso” dentro da programação do ERAD-SE 2025.
+    speakers: 
+      - name: Mauro Marques
+        post: Information Systems Engineer
+        org: LexisNexis Risk Solutions, São Paulo - SP
+        homepage: https://www.linkedin.com/in/maurodonatomarques
+        bio: > 
+          Engenheiro de Software da área de Treinamento da LexisNexis Risk Solutions. Sua principal atuação está 
+          relacionada ao desenvolvimento de programas de treinamento no Brasil, contemplando o suporte e mentoria 
+          à comunidade acadêmica, no que tange à Projetos de Pesquisa, cursos de extensão extracurriculares, 
+          coorientação em disciplinas de Iniciação Científica, mentoria durante a elaboração de TCCs, 
+          dissertações de mestrado e teses de doutorado e, também, coautoria em artigos científicos, 
+          possibilitando que pesquisadores e estudantes utilizem a plataforma HPCC Systems, com capacidade 
+          computacional de alto desempenho, no desenvolvimento das suas atribuições acadêmicas.
+        image_path: ./assets/images/speakers/Aleteia.jpg
+    date: 6 de novembro
+    time: das 13.30 às 14.00 horas
     location: Auditório
