@@ -14,23 +14,49 @@ slide_id: 3
             </div>
             {% for talk in site.data.talks.palestras %}
             <div>
-              <h6>Palestra {{talk.type}}</h6> entitulada <h6><i>{{talk.title}}</i></h6>
+              <p>
+                  <b>Palestra {{talk.type}}</b> entitulada <b><i>{{talk.title}}</i></b>
+              </p>
               <p>
                 <b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}
               </p>
               <p>
                 <b>Resumo</b>: {{talk.abstract}}
               </p>
-              <h6>Palestrante</h6>
-              <div class="row">
-                  <div class col-md-12> 
-                    <img class="speaker-photo float-start" src="{{talk.image_path}}" alt="{{talk.speaker}}">
-                            
-                    <p class="lead speaker-bio">
-                        <b>{{talk.speaker}}</b> - {{talk.bio}}
+              <p><b>Palestrante(s)</b></p>
+                <div class="card">
+                <div class="card-header text-white bg-dark"><strong>{{talk.title}}</strong></div>
+                {% if talk.members %}
+                {% for speaker in talk.speakers %}
+                <div class="card-block bg-light committee">
+                    <p>
+                        <a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a>
                     </p>
-                  </div>
-              </div>
+                    {% if speaker.post %}
+                    <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.post }}</p>
+                    {% endif %}
+                    <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.org }}</p>
+                
+                    <div class="row">
+                      <div class col-md-12> 
+                        <img class="speaker-photo float-start" src="{{talk.image_path}}" 
+                            alt="{{talk.speaker}}">                           
+                        <p class="lead speaker-bio">
+                        <b>Sobre a palestrante:</b> - {{talk.bio}}
+                        </p>
+                      </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="card-block bg-light committee">
+                    <p class="card-title">TBA</p>
+                    <p><strong>TBA</strong></p>
+                    <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
+                </div>
+                {% endif %}
+            </div>
+              
             </div>
             {% endfor %}
             <p>
