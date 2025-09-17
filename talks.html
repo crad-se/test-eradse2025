@@ -39,11 +39,12 @@ slide_id: 3
                         {% endif %}
                         <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.org }}</p>
                         <div class="row">
-                        <!--    <div class col-md-12> -->
-                                 <p><img class="speaker-photo float-start" src="{{speaker.image_path}}" 
-                                alt="{{speaker.name}}">                           
-                               <b>Sobre a palestrante:</b> {{speaker.bio}}</p>
-                        <!--    </div> -->
+                            <div class="col-auto">
+                                <img class="speaker-photo" src="{{speaker.image_path}}" alt="{{speaker.name}}">
+                            </div>
+                            <div class="col">
+                                <b>Sobre a palestrante:</b>{{speaker.bio}}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
