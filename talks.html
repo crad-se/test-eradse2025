@@ -38,11 +38,9 @@ slide_id: 3
                             <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.post }}</p>
                         {% endif %}
                         <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.org }}</p>
-                        <div class="row">
-                            <div class="col-auto">
-                                <img class="speaker-photo mt-3" src="{{speaker.image_path}}" alt="{{speaker.name}}">
-                            </div>
-                            <div class="col">
+                        <div class="d-flex align-items-center">
+                            <img class="speaker-photo me-3" src="{{speaker.image_path}}" alt="{{speaker.name}}">
+                            <div>
                                 <b>Sobre a palestrante: </b> {{speaker.bio}}
                             </div>
                         </div>
