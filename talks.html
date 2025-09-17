@@ -16,7 +16,7 @@ slide_id: 3
             <div>
                 <p><b>Palestra {{talk.type}}</b></p>
                 <div class="card">
-                    <div class="card-header text-white bg-dark"><strong><i>{{talk.title}}</i></strong></div>
+                    <div class="card-header text-white bg-dark"><strong><i>{{talk.title}}</i></strong>
                         <div class="card-block bg-light committee">
                             <p class="card-subtitle text-muted" style="font-size: 90%;"><b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}</p>
                             {% if talk.abstract %}
@@ -31,7 +31,8 @@ slide_id: 3
                 {% if talk.speakers %}
                 <div class="card">
                     {% for speaker in talk.speakers %}
-                    <div class="card-header text-white bg-dark"><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a></div>
+                    <div class="card-header text-white bg-dark"><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a>
+                    </div>
                     <div class="card-block bg-light committee">
                         {% if speaker.post %}
                             <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.post }}</p>
