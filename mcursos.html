@@ -25,9 +25,9 @@ slide_id: 3
                             </div>
                             <div class="card-block bg-light committee">
                               {% if speaker.post %}
-                                <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.post }}</p>
+                                <p class="card-subtitle text-muted" style="font-size: 90%;"><b>Cargo</b>: {{ speaker.post }}</p>
                               {% endif %}
-                              <p class="card-subtitle text-muted" style="font-size: 90%;">{{ speaker.org }}</p>
+                              <p class="card-subtitle text-muted" style="font-size: 90%;"><b>Afiliação</b>: {{ speaker.org }}</p>
                               <div class="d-flex mt-3">
                                 <img class="speaker-photo" src="{{speaker.image_path}}" alt="{{speaker.name}}" style="margin-right: 1rem;">
                                 <div class="align-self-center text-justify">
