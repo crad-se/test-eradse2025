@@ -24,14 +24,14 @@ slide_id: 3
                             <div class="card-header text-white bg-dark"><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a>
                             </div>
                             <div class="card-block bg-light committee">
-                              {% if speaker.post %}
-                                <p class="card-subtitle" style="font-size: 90%;"><b>Cargo</b>: {{ speaker.post }}</p>
-                              {% endif %}
-                              <p class="card-subtitle" style="font-size: 90%;"><b>Afiliação</b>: {{ speaker.org }}</p>
                               <div class="d-flex mt-3">
                                 <img class="speaker-photo" src="{{speaker.image_path}}" alt="{{speaker.name}}" style="margin-right: 1rem;">
                                 <div class="align-self-center text-justify">
-                                  <b>Sobre o palestrante: </b> {{speaker.bio}}
+                                    {% if speaker.post %}
+                                        <p class="card-subtitle" style="font-size: 90%;"><b>Cargo</b>: {{ speaker.post }}</p>
+                                    {% endif %}
+                                    <p class="card-subtitle" style="font-size: 90%;"><b>Afiliação</b>: {{ speaker.org }}</p>
+                                    <b>Sobre o palestrante: </b> {{speaker.bio}}
                                 </div>
                               </div>
                             </div>
