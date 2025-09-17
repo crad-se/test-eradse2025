@@ -146,3 +146,9 @@ body {
 .navbar-dark .navbar-nav>.active {
     color: #5393c5 !important;
 }
+
+.speaker-photo {
+    width: 120px;
+    height: auto;
+    border-radius: 6px;   /* Optional: rounded corners */
+}
