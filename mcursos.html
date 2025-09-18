@@ -21,7 +21,7 @@ slide_id: 3
                         {% if talk.speakers %}
                         <div class="card">
                           {% for speaker in talk.speakers %}
-                            <div class="card-header text-white bg-dark"><a href="{{ speaker.homepage }}"><strong>{{ speaker.name }}</strong></a>
+                            <div class="card-header text-white bg-dark">Apresentador: <a href="{{ speaker.homepage }}"><strong><i>{{ speaker.name }}</i></strong></a>
                             </div>
                             <div class="card-block bg-light committee">
                               <div class="d-flex">
