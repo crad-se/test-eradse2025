@@ -11,10 +11,10 @@ slide_id: 3
             {% for talk in site.data.talks.palestras %}
             <div>
                 <div class="card">
-                    <div class="card-header text-white bg-dark"><strong>Palestra {{talk.type}}: <i>{{talk.title}}</i></strong>
+                    <div class="card-header text-white bg-dark" style="font-size: 110%;">Palestra {{talk.type}}: <strong><i>{{talk.title}}</i></strong>
                     </div>
                     <div class="card-block bg-light committee">
-                        <p class="card-subtitle text-dark" style="font-size: 120%;"><b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}</p>
+                        <p class="card-subtitle text-dark" style="font-size: 110%;"><b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}</p>
                         {% if talk.abstract %}
                             <p class="card-subtitle" style="font-size: 90%;"><b>Resumo</b>: {{talk.abstract}}</p>
                         {% endif %}
