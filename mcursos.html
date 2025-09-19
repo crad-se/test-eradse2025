@@ -18,6 +18,7 @@ slide_id: 3
                         {% if talk.abstract %}
                             <p class="card-subtitle text-justify" style="font-size: 90%;"><b>Resumo</b>: {{talk.abstract}}</p>
                         {% endif %}
+                        <br>
                         {% if talk.speakers %}
                         <div class="card">
                           {% for speaker in talk.speakers %}
