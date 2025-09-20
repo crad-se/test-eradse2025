@@ -6,22 +6,22 @@ slide_id: 3
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-dark">
-        <h6 class="text-info">Minicursos especialmente convidados para a {{site.data.conference.short_title}}</h6>
-        {% if site.data.talks.palestras %} 
-            {% for talk in site.data.talks.palestras %}
+        <h6 class="text-info">Minicursos da {{site.data.conference.short_title}}</h6>
+        {% if site.data.mcursos.minicursos %} 
+            {% for mc in site.data.mcursos.minicursos %}
             <div>
                 <div class="card">
-                    <div class="card-header text-white bg-dark" style="font-size: 100%;">Palestra {{talk.type}}: <strong><i>{{talk.title}}</i></strong>
+                    <div class="card-header text-white bg-dark" style="font-size: 100%;">Minicurso {{mc.type}}: <strong><i>{{mc.title}}</i></strong>
                     </div>
                     <div class="card-block bg-light committee">
-                        <p class="card-subtitle text-dark pt-1 pb-1" style="font-size: 100%;"><b>Horário e local</b>: {{talk.date}}, {{talk.time}} — {{talk.location}}</p>
-                        {% if talk.abstract %}
-                            <p class="card-subtitle text-justify ps-2 pb-1" style="font-size: 90%;"><b>Resumo</b>: {{talk.abstract}}</p>
+                        <p class="card-subtitle text-dark pt-1 pb-1" style="font-size: 100%;"><b>Horário e local</b>: {{mc.date}}, {{mc.time}} — {{mc.location}}</p>
+                        {% if mc.abstract %}
+                            <p class="card-subtitle text-justify ps-2 pb-1" style="font-size: 90%;"><b>Resumo</b>: {{mc.abstract}}</p>
                         {% endif %}
-                        {% if talk.speakers %}
+                        {% if mc.speakers %}
                         <div class="card">
-                          {% for speaker in talk.speakers %}
-                            <div class="card-header text-white bg-dark" style="font-size: 100%;">Apresentador: <a href="{{ speaker.homepage }}"><strong><i>{{ speaker.name }}</i></strong></a>
+                          {% for speaker in mc.speakers %}
+                            <div class="card-header text-white bg-dark" style="font-size: 100%;">Instrutor: <a href="{{ speaker.homepage }}"><strong><i>{{ speaker.name }}</i></strong></a>
                             </div>
                             <div class="card-block bg-light committee">
                               <div class="d-flex">
