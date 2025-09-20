@@ -1,0 +1,37 @@
+description: > 
+  Segue abaixo detalhes sobre os <b><i>Minicursos Tecnológicos</i></b> que pretendem oferecer 
+  estudantes uma oportunidade de experimentar novas tecnologias de primeira mão.  
+minicursos:
+  - type: Tecnológico
+    title: "Processamento e análise de Big Data para aplicação de algoritmos de Machine Learning com interface Myriad através da utilização da plataforma HPCC Systems."
+    abstract: > 
+      Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais 
+      de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento 
+      de um serviço de consulta através da utilização da plataforma “open-source” composta por um 
+      Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a aplicação de algoritmos de 
+      Aprendizado de Máquina com interface Myriad, bem como terão a possibilidade de aplicar os 
+      conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula.
+    prereqs: >
+      Este minicurso vai acontecer num Laboratório de Informática do IC-UFF com computadores já 
+      instalados, mas pode usar seu próprio laptop, se ele tem acesso à Internet e algum programa para 
+      descompactação de arquivos (WinZip/WinRar/7-Zip). Será necessário também que todos os 
+      participantes do minicurso tenham previamente criado uma conta no GitHub 
+      (<a href="https://github.com/login"target="_blank">
+                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i><strong> https://github.com/login</strong></a>).
+    speakers: 
+      - name: Mauro Marques
+        post: Information Systems Engineer
+        org: LexisNexis Risk Solutions, São Paulo - SP
+        homepage: https://www.linkedin.com/in/maurodonatomarques
+        bio: > 
+          Engenheiro de Software da área de Treinamento da LexisNexis Risk Solutions. Sua principal atuação está 
+          relacionada ao desenvolvimento de programas de treinamento no Brasil, contemplando o suporte e mentoria 
+          à comunidade acadêmica, no que tange à Projetos de Pesquisa, cursos de extensão extracurriculares, 
+          coorientação em disciplinas de Iniciação Científica, mentoria durante a elaboração de TCCs, 
+          dissertações de mestrado e teses de doutorado e, também, coautoria em artigos científicos, 
+          possibilitando que pesquisadores e estudantes utilizem a plataforma HPCC Systems, com capacidade 
+          computacional de alto desempenho, no desenvolvimento das suas atribuições acadêmicas.
+        image_path: ./assets/images/speakers/MauroMarques.jpg
+    date: Sexta-feira, 7 de novembro
+    time: das 9.00 às 10.30 horas
+    location: Laboratório 304
