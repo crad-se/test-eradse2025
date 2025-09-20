@@ -18,6 +18,9 @@ slide_id: 3
                         {% if mc.abstract %}
                             <p class="card-subtitle text-justify ps-2 pb-1" style="font-size: 90%;"><b>Resumo</b>: {{mc.abstract}}</p>
                         {% endif %}
+                        {% if mc.prereqs %}
+                            <p class="card-subtitle text-justify ps-2 pb-1" style="font-size: 90%;"><b>Prerequisitos</b>: {{mc.prereqs}}</p>
+                        {% endif %}
                         {% if mc.speakers %}
                         <div class="card">
                           {% for speaker in mc.speakers %}
@@ -31,7 +34,7 @@ slide_id: 3
                                         <p class="card-subtitle"><b>Cargo</b>: {{ speaker.post }}</p>
                                     {% endif %}
                                     <p class="card-subtitle"><b>Afiliação</b>: {{ speaker.org }}</p>
-                                    <p class="card-subtitle"><b>Sobre o palestrante: </b> {{speaker.bio}}</p>
+                                    <p class="card-subtitle"><b>Sobre o instructor: </b> {{speaker.bio}}</p>
                                 </div>
                               </div>
                             </div>
