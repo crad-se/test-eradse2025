@@ -13,11 +13,11 @@ minicursos:
       conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula.
     prereqs: >
       Este minicurso vai acontecer num Laboratório de Informática do IC-UFF com computadores já 
-      instalados, mas pode usar seu próprio laptop, se ele tem acesso à Internet e algum programa para 
-      descompactação de arquivos (WinZip/WinRar/7-Zip). Será necessário também que todos os 
-      participantes do minicurso tenham previamente criado uma conta no GitHub 
+      instalados, mas participantes podem usar seus próprios laptops, se eles têm acesso à Internet e 
+      algum programa para descompactação de arquivos (WinZip/WinRar/7-Zip). Será necessário também que 
+      todos os participantes do minicurso tenham previamente criado uma conta no GitHub 
       (<a href="https://github.com/login"target="_blank">
-                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i><strong> https://github.com/login</strong></a>).
+      <i class="fa fa-external-link fa-fw" aria-hidden="true"></i><strong> https://github.com/login</strong></a>).
     speakers: 
       - name: Mauro Marques
         post: Information Systems Engineer
