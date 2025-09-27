@@ -11,13 +11,13 @@ online:
     url: https://www.youtube.com/watch?v=n1SPshTzcbg&ab_channel=SanskritResearchInstitute
 
 schedule:
- - date: "2025-11-05"
-   dateReadable: "5 de Novembro"
-   timeslots:
-   - startTime: "8:20"
-     endTime: "8:30"
-     title: "Open remarks"
-   - startTime: "8:30"
+- date: "2025-11-05"
+  dateReadable: "5 de Novembro"
+  timeslots:
+  - startTime: "8:20"
+    endTime: "8:30"
+    title: "Open remarks"
+  - startTime: "8:30"
      endTime: "9:30"
      title: "Keynote I: "
      speaker: "Nome (Afiliacao)"
