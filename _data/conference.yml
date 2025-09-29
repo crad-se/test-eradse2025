@@ -41,11 +41,11 @@ slideshow:
     description: Ilha de Boa Viagem
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-#  - id: 3
-#    image_path: ./assets/images/slideshow/3-whitetown.jpg
-#    description: White Town
-#    photographer_name: ""
-#    photographer_link: ""
+  - id: 3
+    image_path: ./assets/images/ERAD-SE-3-peach.png
+    description: White Town
+    photographer_name: ""
+    photographer_link: ""
 #  - id: 4
 #    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
 #    description: Manakula Vinayagar Temple
