@@ -1,17 +1,15 @@
 <header class="site-header">
     <div class="row">
-
         <!--conference info-->
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
             <div class="jumbotron">
                 {% if site.data.conference.show_logo %}
                     {% if site.data.conference.show_title %}
                     <div class="row">
-                        <div class="col-4 col-md-6 ml-0 my-3">
+                        <div class="col-5 col-md-7 ml-0 my-3">
                             <img class="img-fluid mt-0 mb-3 border-right border-dark pr-3" src="{{ site.data.conference.logo_path }}">
                         </div>
-                        <div class="col-7 col-md-6 mx-0 text-center">
+                        <div class="col-6 col-md-5 mx-0 text-center">
                             <h5 class="my-4">{{ site.data.conference.full_title }}</h5>
                             <!-- Moved the following up here from else below -->
                             <br><h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6>
@@ -51,12 +49,9 @@
             </div>
 
         </div>
-
         <!--slide show-->
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
             <div id="conference-carousel" class="carousel slide" data-ride="carousel">
-
                 <div class="carousel-inner" role="listbox">
                     {% for slide in site.data.conference.slideshow %}
                     {% if page.slide_id and page.slide_id  == slide.id %}
