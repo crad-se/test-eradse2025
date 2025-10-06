@@ -12,13 +12,30 @@ layout: page
             da {{site.data.conference.location2}}, localizada em {{site.data.conference.country}},
             de {{site.data.conference.date}}.
         </p>
-  
+
+        <!-- new -->
+        <div class="card-block bg-light committee">
+            <div class="d-flex">
+                <img class="img-fluid mt-0 mb-0" src="{{ site.data.conference.sbc_path }}" alt="SBC">
+                <!-- <img class="speaker-photo" src="{{speaker.image_path}}" alt="SBC"> -->
+                <div class="align-self-center text-justify">
+                    {% if site.data.conference.description %}
+                        <p>{{site.data.conference.description}}</p>    
+                    <!-- <p class="card-subtitle"><b>Cargo</b>: {{ speaker.post }}</p> -->
+                    {% endif %}
+                    {{content}}
+                </div>
+            </div>
+        </div>
+
+        <!-- original 
         <p>
             {{site.data.conference.description}}
         </p>
 
         {{content}}
-
+        -->
+        
         {% include contact-us.html %}
 
     </div>
