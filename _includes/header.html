@@ -17,7 +17,7 @@
                             <!-- Moved the following up here from else below -->
                             <h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6>
                             <!-- <p class="text-center mt-1 mb-0">
-                                {{ site.data.conference.location }},<br> {{ site.data.conference.location2 }},<br>
+                                {{ site.data.conference.location }}<br> {{ site.data.conference.location2 }}<br>
                                 {{ site.data.conference.country }}
                             </p> -->
                         </div>
@@ -42,13 +42,13 @@
                 {% endif %}
                 <div class="row">
                     <div class="col-1 col-md-3 ml-0 my-1">
-                        <img class="img-fluid mt-0 mb-0" src="./assets/images/at.png">
+                        <img class="img-fluid mt-0 mb-0" src="./assets/images/at.png" style="height:100px;">
                     </div>
                     <div class="col">
                       <!-- <h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6> -->
-                        <p class="lh-sm mt-0 mb-1">
-                            <i>{{ site.data.conference.location }},<br> {{ site.data.conference.location2 }},<br>
-                            {{ site.data.conference.country }}</i>
+                        <p class="lh-sm mt-0 mb-1" style="font-size: 90%;">
+                            <b><i>{{ site.data.conference.location }}<br> {{ site.data.conference.location2 }}<br>
+                            {{ site.data.conference.country }}</i></b>
                         </p> 
                     </div>
                 </div>
