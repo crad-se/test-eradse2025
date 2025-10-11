@@ -19,12 +19,12 @@ location: Instituto de Computação
 location2: Universidade Federal Fluminense (UFF)
 country: Niterói, Brasil
 
-logo_path: ./assets/images/ERAD-SE-3-peach.png
+logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
 
 # if show_logo is false, show_title: false has no effect
 show_logo: true
-show_title: true
+show_title: false
 
 slideshow:
   - id: 0
