@@ -5,7 +5,8 @@ description: >
   oferecem uma visão das necessidades das empresas, indústria e a sociedade em geral, além de 
   destacar as principais habilidades e tecnologias que alunos podem achar úteis em seu futuro profissional.
 palestras:
-  - type: Acadêmica e Industrial
+  - id: pal-petro
+    type: Acadêmica e Industrial
     title: Jornada de HPC da Petrobras
     abstract: >
       Apresentação da trajetória de mais de 50 anos do HPC na Petrobras, desde os primeiros sistemas de 
@@ -43,7 +44,8 @@ palestras:
     date: Quarta-feira, 5 de novembro
     time: das 11 às 12 horas 
     location: Auditório
-  - type: Acadêmica
+  - id: pal-alet
+    type: Acadêmica
     title: "Tornando o Invisível Visível: Observabilidade em Ambientes Fog Computing"
     abstract: > 
       A crescente complexidade dos sistemas distribuídos no Fog Computing exige novas abordagens 
@@ -74,7 +76,8 @@ palestras:
     date: Quinta-feira, 6 de novembro
     time: das 11 às 12 horas
     location: Auditório
-  - type: Acadêmica e Industrial
+  - id: pal-hpcc
+    type: Acadêmica e Industrial
     title: "Introdução ao Aprendizado de Máquina através de algoritmos com interface Myriad na plataforma HPCC Systems."
     abstract: > 
       A plataforma HPCC Systems de código aberto utiliza arquitetura de dados distribuída e uma metodologia 
