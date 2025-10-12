@@ -2,7 +2,8 @@ description: >
   Segue abaixo detalhes sobre os <b><i>Minicursos Tecnológicos</i></b> oferecendo principalmente aos 
   estudantes uma oportunidade de experimentar novas tecnologias na prática.  
 minicursos:
-  - type: Tecnológico
+  - id: mc-hpcc
+    type: Tecnológico
     title: "Processamento e análise de Big Data para aplicação de algoritmos de Machine Learning com interface Myriad através da utilização da plataforma HPCC Systems."
     abstract: > 
       Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais 
