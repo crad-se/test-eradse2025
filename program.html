@@ -57,14 +57,21 @@ slide_id: 4
                                         <h6><a href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</a></h6>
                                     </th>
                                 {% else %}                              
-                                    <th class="bg-primary text-center text-white">
-                                        <h5><a style="color:white" href="./talks.html#{{timeslot.id}}">{{timeslot.title}}</a></h5>
-                                        {% if timeslot.speaker %}
-                                            <h5>{{timeslot.speaker}}</h5>
-                                        {% endif %}
-                                        {% if timeslot.chair %}
-                                            <h6>Session chair:{{timeslot.chair}}</h6>
-                                        {% endif %}
+                                    {% if timeslot.type == "talk" %}
+                                        <th class="bg-primary text-center text-white">
+                                            <h6><a style="color:white" href="./talks.html#{{timeslot.id}}">{{timeslot.title}}</a></h6>
+                                            {% if timeslot.speaker %}
+                                                <h6>{{timeslot.speaker}}</h6>
+                                            {% endif %}
+                                            {% if timeslot.chair %}
+                                                <h7>Session chair:{{timeslot.chair}}</h7>
+                                            {% endif %}
+                                        </th>
+                                    {% else %}
+                                        <th class="bg-info text-center align-middle">
+                                            <h6 class="text-body">{{timeslot.title}}</h6>
+                                        </th>
+                                    {% endif %}
                                     </th>
                                 {% endif %}
                             {% endif %}
