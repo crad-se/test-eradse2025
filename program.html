@@ -30,7 +30,7 @@ slide_id: 4
             {% endif %}
         </p>
         {% endif %}
-        <h3 class="text-info text-center">Agenda</h3>
+        <h3 class="text-info text-center">Agenda </h3>
         {% if site.data.program.schedule != nil %}
         {% for day in site.data.program.schedule %}
         <div>
@@ -47,22 +47,23 @@ slide_id: 4
                             <p class="text-muted">{{timeslot.title}}</p>
                         </th>
                         {% else %}
-                        {% if timeslot.type == "minicurso" %}
-                        <th class="bg-warning text-center">
-                            <p class="text-muted">
+                            {% if timeslot.type == "minicurso" %}
+                            <th class="bg-warning text-center">
+                                <p class="text-muted">
                                 <a href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</p>
-                        </th>
-                        {% else %}                        
-                        <th class="bg-primary text-center">
-                            <h5><a href="./talks.html#{{timeslot.id}}">{{timeslot.title}}</a></h5>
-                            {% if timeslot.speaker %}
-                            <h5>{{timeslot.speaker}}</h5>
+                            </th>
+                            {% else %}                        
+                            <th class="bg-primary text-center">
+                                <h5><a href="./talks.html#{{timeslot.id}}">{{timeslot.title}}</a></h5>
+                                {% if timeslot.speaker %}
+                                <h5>{{timeslot.speaker}}</h5>
+                                {% endif %}
+                                {% if timeslot.chair %}
+                                <h6>Session chair:{{timeslot.chair}}</h6>
+                                {% endif %}
+                            </th>
                             {% endif %}
-                            {% if timeslot.chair %}
-                            <h6>Session chair:{{timeslot.chair}}</h6>
-                            {% endif %}
-                        </th>
-                        {% endif %}
+                        {% endif %}    
                     </tr>
                 </thead>
                 {% if timeslot.events %}
