@@ -43,12 +43,12 @@ slide_id: 4
                             <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
-                        <th class="bg-warning text-center">
+                        <th class=".bg-secondary.bg-gradient text-center">
                             <p class="text-muted">{{timeslot.title}}</p>
                         </th>
                         {% else %}
                             {% if timeslot.type == "minicurso" %}
-                            <th class="bg-warning text-center">
+                            <th class="bg-success.bg-gradient text-center">
                                 <p class="text-muted">
                                 <a href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</p>
                             </th>
