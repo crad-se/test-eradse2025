@@ -63,7 +63,7 @@ schedule:
   - startTime: "16:30"
     endTime: "17:30"
     title: "Fórum de Iniciação Científica"
-    type: "presentation"
+    type: "session"
     events:
     - title: "Precog: Action-Based Time-Shifted Prefetching for Web Applications on Mobile Devices"
       speakers: "Shruti Sanadhya:Hewlett Packard Labs, Palo Alto, CA; Uma Parthavi Moravapalle:Georgia Institute of Technology, Atlanta, GA; Kyu-Han Kim:Hewlett Packard Labs, Palo Alto, CA; Raghupathy Sivakumar:Georgia Institute of Technology, Atlanta, GA"
@@ -76,7 +76,7 @@ schedule:
   - startTime: "17:30"
     endTime: "18:10"
     title: "Concurso de Dissertação"
-    type: "presentation"
+    type: "session"
     events:
     - title: "Rethinking Information Sharing for Threat Intelligence"
       speakers: "Aziz Mohaisen:University of Central Florida; Omar Al-Ibrahim:University of Central Florida; Charles Kamhoua:US Army Research Laboratory; Kevin Kwiat:Air Force Research Laboratory; Laurent L. Njilla:Air Force Research Laboratory"
