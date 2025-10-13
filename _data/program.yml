@@ -97,7 +97,7 @@ schedule:
     endTime: "10:30"
     id: mc-cesar
     title: "Minicurso: Cesar"
-    speaker: "Evaldo Costa (CESAR, Recife)"
+    speaker: "Prof. Evaldo Costa (CESAR, Recife)"
     type: "minicurso"
   - startTime: "10:30"
     endTime: "11:00"
@@ -106,7 +106,7 @@ schedule:
   - startTime: "11:00"
     endTime: "12:00"
     title: "Keynote II: "
-    speaker: "Viktor Prasanna (USC, EUA)"
+    speaker: "Prof. Viktor Prasanna (USC, EUA)"
     chair: "Vinod Rebello"
     type: "talk"
     id: pal-viktor
@@ -117,7 +117,7 @@ schedule:
   - startTime: "13:30"
     endTime: "15:00"
     title: "Keynote III: Tornando o Invisível Visível: Observabilidade em Ambientes Fog Computing"
-    speaker: " Aletéia Patrícia Favacho de Araújo (UnB)"
+    speaker: "Profa. Aletéia Patrícia Favacho de Araújo (UnB)"
     chair: "Cristina Boeres"
     type: "talk"
     id: pal-alet
