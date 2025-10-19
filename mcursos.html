@@ -9,7 +9,7 @@ slide_id: 3
         <h6 class="text-info">Minicursos da {{site.data.conference.short_title}}</h6>
         {% if site.data.mcursos.minicursos %} 
             {% for mc in site.data.mcursos.minicursos %}
-            <div>
+            <div id="{{mc.id}}">
                 <div class="card">
                     <div class="card-header text-white bg-dark" style="font-size: 100%;">Minicurso {{mc.type}}: <strong><i>{{mc.title}}</i></strong>
                     </div>
