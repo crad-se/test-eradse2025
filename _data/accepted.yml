@@ -8,7 +8,7 @@
   - name: Antonio Tadeu Azevedo Gomes
     email: atagomes@lncc.br
     affiliation: LNCC
-#
+
 - id: 16905
   track: Fórum de Iniciação Científica
   title: "The Decoherence of Schrödinger's State: A Quantitative Analysis of Fidelity in Noisy Quantum Simulations"
@@ -19,7 +19,7 @@
   - name: João Fabrício Filho
     email: joaofabriciofilho@gmail.com
     affiliation: UTFPR
-#
+
 - id: 16907	
   track: Fórum de Pós-Graduação
   title: "Uma Abordagem do Uso de Risc-V em Computação de Alto Desempenho (HPC)"
@@ -156,7 +156,6 @@
     email: rmalini@inf.ufes.br
     affiliation: PETROBRAS
 
-
 - id: 16932	
   track: Fórum de Iniciação Científica
   title: "Modelo de refinamento em paralelo para malhas de elementos finitos"
@@ -181,7 +180,7 @@
   - name: Roberto Pinto Souto
     email: rpsouto@lncc.br
     affiliation: LNCC
-  	
+
 - id: 16942	
   track: Fórum de Iniciação Científica
   title: "Análise de Desempenho do PA-Star2 no SDumont e sua Aplicação em um Workflow Científico"
