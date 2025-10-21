@@ -129,7 +129,6 @@
     email: lucia@ic.uff.br
     affiliation: UFF
 
-
 - id: 16956	
   track: Fórum de Pós-Graduação
   title: "Análise de um Log Real de Jobs visando a Previsão de Tempos de Espera para Execução em um Cluster de Alto Desempenho"
@@ -214,7 +213,7 @@
   - name: Roberto Pinto Souto
     email: rpsouto@lncc.br
     affiliation: Laboratório Nacional de Computação Científica — LNCC
-	
+
 - id: 16964	
   track: Fórum de Iniciação Científica
   title: "Avaliação de Estratégias de gerenciamento de contêineres para uma Aplicação de Bioinformática na AWS"
@@ -228,7 +227,7 @@
   - name: Vinod Rebello
     email: vinod@ic.uff.br
     affiliation: UFF
-	
+
 - id: 17007	
   track: Fórum de Iniciação Científica
   title: "Oferta ou Roubo: avaliando abordagens de escalonamento dinâmico para Workflow scRNA-seq na nuvem AWS"
