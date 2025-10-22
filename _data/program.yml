@@ -199,3 +199,7 @@ schedule:
     type: "minicurso"
     title: "Minicurso: Guia Prático de Treinamento Distribuído para LLMs."
     speaker: "Leon Barboza e Prof. Evaldo Costa (CESAR, Recife)"
+  - startTime: "15:30"
+    endTime: "17:30"
+    title: "Premiações e Encerramento"
+    type: "other"
