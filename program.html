@@ -68,11 +68,16 @@ slide_id: 4
                                             {% endif %}
                                         </th>
                                     {% else %}
-                                        <th class="bg-info text-center align-middle">
-                                            <h6 class="text-body">{{timeslot.title}}</h6>
-                                        </th>
+                                        {% if timeslot.type == "maratona" %}
+                                            <th class="bg-danger text-center text-white">
+                                                <h6><a href="./cpf.html">{{timeslot.title}}</a></h6>
+                                            </th>
+                                        {% else %}
+                                            <th class="bg-info text-center align-middle">
+                                                <h6 class="text-body">{{timeslot.title}}</h6>
+                                            </th>
+                                        {% endif %}
                                     {% endif %}
-                                    </th>
                                 {% endif %}
                             {% endif %}
                         {% endif %}    
