@@ -178,12 +178,12 @@ deadlines:
 
 sponsors:
   - name: Hewlett Packard Enterprise Company (HPE) 
-    logo_path: ./assets/images/sponsors/HPE.png
+    logo_path: ./assets/images/sponsors/HPE2.png
     url: https://www.hpe.com/br/pt/home.html
   - name: Hewlett Packard Enterprise Company (HPE) 
     logo_path: ./assets/images/sponsors/HPE.png
     url: https://www.hpe.com/br/pt/home.html
-    style: "background: gold; border-radius: 10px; padding: 8px;"
+#    style: "background: gold; border-radius: 10px; padding: 8px;"
 #  - name: LexisNexis Risk Solutions
 #    logo_path: ./assets/images/sponsors/sangrah-logo.jpg
 #    url: https://sangrah.org/
