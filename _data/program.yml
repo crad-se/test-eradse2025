@@ -86,8 +86,8 @@ schedule:
       speakers: "Nancy Carter:College of William & Mary; Ed Novak:Franklin & Marshall College; Cheng Li:College of William & Mary; Zhengrui Qin:Northwest Missouri State University; Qun Li:College of William & Mary; Jennifer A Stevens:College of William & Mary; Jiquo Yu:Qufu Normal University"
   - startTime: "20:00"
     endTime: "22:00"
-    title: "Maratona Programação Paralela (remoto)"
-    type: "Maratona"
+    title: "Maratona Programação Paralela <i>Warm up</i> (remoto)"
+    type: "maratona"
 - date: "2025-11-06"
   dateReadable: "6 de Novembro de 2025"
   timeslots:
@@ -139,6 +139,10 @@ schedule:
     id: mc-ufrj
     title: "Minicurso: Computação Sustentável na Computação de Alto Desempenho: Motivação, relevância, como colocá-la em prática."
     speaker: "Gustavo Henrique Lemos de Lima e Profa. Silvana Rossetto (UFRJ, Rio de Janeiro)"
+  - startTime: "20:00"
+    endTime: "23:00"
+    title: "Maratona Programação Paralela (remoto)"
+    type: "maratona"
 - date: "2025-11-07"
   dateReadable: "7 de Novembro de 2025"
   timeslots:
