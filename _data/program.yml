@@ -129,9 +129,9 @@ schedule:
     id: pal-alet
   - startTime: "14:30"
     endTime: "15:00"
-    title: "Palestra II: Tornando o Invisível Visível: Observabilidade em Ambientes Fog Computing"
-    speaker: "Profa. Aletéia Patrícia Favacho de Araújo (UnB)"
-    chair: "Cristina Boeres"
+    title: "Palestra II: Introdução ao Aprendizado de Máquina através de algoritmos com interface Myriad na plataforma HPCC Systems."
+    speaker: "Mauro Marques"
+    chair: "Vinod Rebello"
     type: "talk"
     id: pal-lexis
   - startTime: "15:00"
@@ -143,7 +143,8 @@ schedule:
     id: mc-ufrj
     type: "minicurso"
     title: "Minicurso: Computação Sustentável na Computação de Alto Desempenho: Motivação, relevância, como colocá-la em prática."
-    speaker: "Gustavo Henrique Lemos de Lima e Profa. Silvana Rossetto (UFRJ, Rio de Janeiro)"
+    speaker: "Gustavo Henrique Lemos de Lima e Profa. Silvana Rossetto (UFRJ, Rio de Janeiro)" 
+    chair: "Rafaela Brum"
   - startTime: "17:30"
     endTime: "18:30"
     type: "other"
