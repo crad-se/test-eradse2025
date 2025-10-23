@@ -53,8 +53,8 @@ slide_id: 4
                             </th>
                             {% else %}                        
                                 {% if timeslot.type == "minicurso" %}
-                                    <th class="bg-warning text-center align-middle text-white">
-                                        <h6><a href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</a></h6>
+                                    <th class="bg-warning text-center text-white  align-middle">
+                                        <h6><a style="color:white" href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</a></h6>
                                     </th>
                                 {% else %}                              
                                     {% if timeslot.type == "talk" %}
@@ -70,7 +70,7 @@ slide_id: 4
                                     {% else %}
                                         {% if timeslot.type == "maratona" %}
                                             <th class="bg-danger text-center align-middle text-white">
-                                                <h6><a href="./cpf.html">{{timeslot.title}}</a></h6>
+                                                <h6><a style="color:white" href="./cpf.html">{{timeslot.title}}</a></h6>
                                             </th>
                                         {% else %}
                                             <th class="bg-info text-center align-middle align-middle">
