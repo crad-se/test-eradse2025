@@ -172,7 +172,7 @@ schedule:
     type: "service"
   - startTime: "11:00"
     endTime: "12:00"
-    title: "Palestra: "
+    title: "Palestra: Título a confirmar"
     speaker: "Monica Costa (Hewlett Packard Enterprise, Rio de Janeiro)"
 #    chair: ""
     type: "talk"
