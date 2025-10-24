@@ -101,9 +101,23 @@ slide_id: 4
                     <tr>
                         <td width="20%">
                         </td>
-                        <td>
-                            <p><b>{{event.title}}</b><br><i>{{event.speakers}}</i></p>
-                        </td>
+                        {% if event.pid %}
+                            {% for paper in site.data.accepted %}
+                                {% if event.pid == paper.id%}
+                                    <td>
+                                        <p><b>{{paper.title}}</b><br><i>
+                                        {% for author in paper.authors %}
+                                            {{author.name}} ({{author.affiliation}}){% unless forloop.last %}, {% endunless %}
+                                        {% endfor %}
+                                        </i></p>
+                                    </td>    
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            <td>
+                                <p><b>{{event.title}}</b><br><i>{{event.speakers}}</i></p>
+                            </td>
+                        {% endif %}
                     </tr>
                     {% endfor %}
                 </tbody>
