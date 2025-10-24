@@ -31,6 +31,9 @@ slide_id: 4
         </p>
         {% endif %}
         <h3 class="text-info text-center">Agenda Preliminar</h3>
+        <p>Todos os eventos acontecerão no auditório do Instituto de Computação, localizado no térreo,
+        com exceção dos minicursos da AWS e do LexisNexis, que acontecem no Laboratório 304, no 
+        terceiro andar. A Maratona de Programação Paralela será online.</p>
         {% if site.data.program.schedule != nil %}
         {% for day in site.data.program.schedule %}
         <div>
@@ -48,13 +51,22 @@ slide_id: 4
                         </th>
                         {% else %}
                             {% if timeslot.type == "session" %}
-                            <th class="bg-success text-center text-white align-middle">
-                                <h6>{{timeslot.title}}</h6>
-                            </th>
+                                <th class="bg-success text-center text-white align-middle">
+                                    <h6>{{timeslot.title}}</h6>
+                                    {% if timeslot.chair %}
+                                        <h7>Session chair: {{timeslot.chair}}</h7>
+                                    {% endif %}
+                                </th>
                             {% else %}                        
                                 {% if timeslot.type == "minicurso" %}
                                     <th class="bg-warning text-center text-white  align-middle">
                                         <h6><a " href="./mcursos.html#{{timeslot.id}}">{{timeslot.title}}</a></h6>
+                                        {% if timeslot.speaker %}
+                                            <h6>{{timeslot.speaker}}</h6>
+                                        {% endif %}
+                                        {% if timeslot.chair %}
+                                            <h7>Session chair: {{timeslot.chair}}</h7>
+                                        {% endif %}    
                                     </th>
                                 {% else %}                              
                                     {% if timeslot.type == "talk" %}
