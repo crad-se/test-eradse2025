@@ -98,10 +98,7 @@ schedule:
     type: "session"
     chair: ""
     events:
-    - pid:
-      title: "Rethinking"
-      speakers: "Laboratory"
-    - pid: 16905
+    - pid: 
       title: ""
       speakers:
   - startTime: "10:30"
@@ -150,10 +147,8 @@ schedule:
     type: "session"
     chair: "Alexandre Sena"
     events:
-    - title: "Rethinking Information Sharing for Threat Intelligence"
-      speakers: "Aziz Mohaisen:University of Central Florida; Omar Al-Ibrahim:University of Central Florida; Charles Kamhoua:US Army Research Laboratory; Kevin Kwiat:Air Force Research Laboratory; Laurent L. Njilla:Air Force Research Laboratory"
-    - title: "Graphical passwords for older computer users"
-      speakers: "Nancy Carter:College of William & Mary; Ed Novak:Franklin & Marshall College; Cheng Li:College of William & Mary; Zhengrui Qin:Northwest Missouri State University; Qun Li:College of William & Mary; Jennifer A Stevens:College of William & Mary; Jiquo Yu:Qufu Normal University" 
+    - pid: 16904
+    - pid: 16958
   - startTime: "20:00"
     endTime: "23:00"
     title: "Maratona de Programação Paralela (remoto)"
@@ -191,11 +186,6 @@ schedule:
     title: "Fórum de Iniciação Científica I"
     type: "session"
     chair: "Gabriel Silva"
-    events:
-    - title: "Rethinking Information Sharing for Threat Intelligence"
-      speakers: "Aziz Mohaisen:University of Central Florida; Omar Al-Ibrahim:University of Central Florida; Charles Kamhoua:US Army Research Laboratory; Kevin Kwiat:Air Force Research Laboratory; Laurent L. Njilla:Air Force Research Laboratory"
-    - title: "Graphical passwords for older computer users"
-      speakers:
   - startTime: "15:00"
     endTime: "15:30"
     title: "Coffee break"
