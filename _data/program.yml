@@ -57,7 +57,7 @@ schedule:
     type: "service"
   - startTime: "15:30"
     endTime: "16:30"
-    id: mc-hpcc
+    id: mc-aws
     title: "Minicurso: Computação de Alto Desempenho e Computação Acelerada na AWS (cont)"
     speaker: "Marcelo Baptista (Amazon Web Services, São Paulo)"
     type: "minicurso"
@@ -99,7 +99,7 @@ schedule:
     chair: ""
     events:
     - pid: 
-      title: ""
+      title: "Apresentações a confirmar"
       speakers:
   - startTime: "10:30"
     endTime: "11:00"
@@ -108,7 +108,7 @@ schedule:
   - startTime: "11:00"
     endTime: "12:00"
     title: "Keynote: The Era of FPGA Acceleration."
-    speaker: "Prof. Viktor Prasanna (USC, EUA)"
+    speaker: "Prof. Viktor Prasanna (Univeristy of Southern California, EUA)"
     chair: "Vinod Rebello"
     type: "talk"
     id: pal-viktor
@@ -119,14 +119,14 @@ schedule:
   - startTime: "13:30"
     endTime: "14:30"
     title: "Keynote: Tornando o Invisível Visível: Observabilidade em Ambientes Fog Computing"
-    speaker: "Profa. Aletéia Patrícia Favacho de Araújo (UnB)"
+    speaker: "Profa. Aletéia Patrícia Favacho de Araújo (Universidade de Brasília)"
     chair: "Cristina Boeres"
     type: "talk"
     id: pal-alet
   - startTime: "14:30"
     endTime: "15:00"
     title: "Palestra: Introdução ao Aprendizado de Máquina através de algoritmos com interface Myriad na plataforma HPCC Systems."
-    speaker: "Mauro Marques"
+    speaker: "Mauro Marques (LexisNexis Risk Solutions, São Paulo)"
     chair: "Vinod Rebello"
     type: "talk"
     id: pal-lexis
@@ -186,6 +186,10 @@ schedule:
     title: "Fórum de Iniciação Científica I"
     type: "session"
     chair: "Gabriel Silva"
+    events:
+    - pid: 
+      title: "Apresentações a confirmar"
+      speakers:
   - startTime: "15:00"
     endTime: "15:30"
     title: "Coffee break"
