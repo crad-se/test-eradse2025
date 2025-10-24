@@ -78,7 +78,7 @@ schedule:
       speakers: "Alana de Lima Pontes Gadelha, Lucia M.A. Drummond, Leandro Santiago de Araújo (Universidade Federal Fluminense — UFF)"
   - startTime: "17:50"
     endTime: "18:30"
-    type: "other"
+    type: "service"
     title: "Reunião CRAD-SE"
     chair: "Cristina Boeres"
   - startTime: "20:00"
