@@ -101,7 +101,7 @@ schedule:
     - pid:
       title: "Rethinking"
       speakers: "Laboratory"
-    - pid:
+    - pid: 16905
       title: ""
       speakers:
   - startTime: "10:30"
