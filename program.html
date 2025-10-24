@@ -56,6 +56,9 @@ slide_id: 4
                             {% if timeslot.type == "session" %}
                                 <th class="bg-success text-center text-white align-middle">
                                     <h6>{{timeslot.title}}</h6>
+                                    {% if timeslot.session %}
+                                        <h6>Session: {{timeslot.session}}</h6>
+                                    {% endif %}
                                     {% if timeslot.chair %}
                                         <h7>Session chair: {{timeslot.chair}}</h7>
                                     {% endif %}
