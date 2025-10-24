@@ -48,6 +48,9 @@ slide_id: 4
                         {% if timeslot.type == "service" %}
                         <th class="bg-secondary text-center align-middle">
                             <h6 class="text-white">{{timeslot.title}}</h6>
+                            {% if timeslot.chair %}
+                                <h7>Session chair: {{timeslot.chair}}</h7>
+                            {% endif %}
                         </th>
                         {% else %}
                             {% if timeslot.type == "session" %}
