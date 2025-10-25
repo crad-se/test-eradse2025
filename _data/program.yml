@@ -97,7 +97,7 @@ schedule:
 #    session: "Modelos de Predição e Computação Científica"
     type: "session"
 #    chair: "A ser decidida"
-#    events:
+    events:
 #    - pid: 16932
 #    - pid: 16923
 #    - pid: 16924
