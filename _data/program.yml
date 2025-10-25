@@ -95,8 +95,7 @@ schedule:
     endTime: "10:30"
     title: "Fórum de Iniciação Científica"
     type: "session"
-    events:
-    - pid:
+#    events:
 #    - pid: 16932
 #    - pid: 16923
 #    - pid: 16924
@@ -186,11 +185,11 @@ schedule:
   - startTime: "13:30"
     endTime: "15:00"
     title: "Fórum de Iniciação Científica"
-#    session: "Modelos de Predição e Computação Científica"
+    session: "Modelos de Predição e Computação Científica"
     type: "session"
-#    chair: "Gabriel Silva"
+    chair: "Gabriel Silva"
     events:
-#    - pid: 
+    - pid: 
 #  - startTime: "14:15"
 #    endTime: "15:00"
 #    title: "Fórum de Iniciação Científica"
