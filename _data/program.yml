@@ -95,12 +95,6 @@ schedule:
     endTime: "10:30"
     title: "Fórum de Iniciação Científica"
     type: "session"
-#    events:
-#    - pid: 16932
-#    - pid: 16923
-#    - pid: 16924
-#    - pid: 16937
-#    - pid: 16905
   - startTime: "10:30"
     endTime: "11:00"
     title: "Coffee break"
