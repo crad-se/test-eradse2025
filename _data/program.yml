@@ -187,7 +187,6 @@ schedule:
     title: "Fórum de Iniciação Científica"
     type: "session"
     events:
-    - pid: 
 #  - startTime: "14:15"
 #    endTime: "15:00"
 #    title: "Fórum de Iniciação Científica"
