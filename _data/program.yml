@@ -186,6 +186,7 @@ schedule:
     endTime: "15:00"
     title: "Fórum de Iniciação Científica"
     type: "session"
+    events:
   - startTime: "15:00"
     endTime: "15:30"
     title: "Coffee break"
