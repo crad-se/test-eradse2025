@@ -95,6 +95,8 @@ schedule:
     endTime: "10:30"
     title: "Fórum de Iniciação Científica"
     type: "session"
+    events:
+    - pid: 
   - startTime: "10:30"
     endTime: "11:00"
     title: "Coffee break"
