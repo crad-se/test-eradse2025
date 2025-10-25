@@ -97,7 +97,7 @@ schedule:
     title: "Fórum de Iniciação Científica"
     session: "Modelos de Predição e Computação Científica"
     type: "session"
-    chair: ""
+    chair: "A ser decidida"
     events:
     - pid: 16932
     - pid: 16923
@@ -177,7 +177,7 @@ schedule:
     endTime: "12:00"
     title: "Palestra: Título a confirmar"
     speaker: "Monica Costa (Hewlett Packard Enterprise, Rio de Janeiro)"
-#    chair: ""
+    chair: <i>A ser decidido</i>
     type: "talk"
     id: pal-hpe
   - startTime: "12:00"
@@ -185,14 +185,21 @@ schedule:
     title: "Lunch"
     type: "service"  
   - startTime: "13:30"
-    endTime: "15:00"
-    title: "Fórum de Iniciação Científica I"
+    endTime: "14:15"
+    title: "Fórum de Iniciação Científica"
+    session: "Modelos de Predição e Computação Científica"
     type: "session"
     chair: "Gabriel Silva"
     events:
     - pid: 
-      title: "Apresentações a confirmar"
-      speakers:
+  - startTime: "14:15"
+    endTime: "15:00"
+    title: "Fórum de Iniciação Científica"
+    session: "Modelos de Predição e Computação Científica"
+    type: "session"
+    chair: "Gabriel Silva"
+    events:
+    - pid: 
   - startTime: "15:00"
     endTime: "15:30"
     title: "Coffee break"
