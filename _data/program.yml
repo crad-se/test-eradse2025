@@ -185,9 +185,7 @@ schedule:
   - startTime: "13:30"
     endTime: "15:00"
     title: "Fórum de Iniciação Científica"
-    session: "Modelos de Predição e Computação Científica"
     type: "session"
-    chair: "Gabriel Silva"
     events:
     - pid: 
 #  - startTime: "14:15"
